@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import React, { useState } from "react";
-
+import { IoMdPhonePortrait } from "react-icons/io";
 
 const Navbar = () => {
   const [state, setState] = useState(false);
@@ -13,9 +13,18 @@ const Navbar = () => {
     { title: "Contact Us", path: "#" },
   ];
 
+  const handleLinkClick = () => {
+    setState(!state);
+    window.scroll(0, 0);
+  };
+
   return (
     <nav className="navbar absolute top-0 bg-transparent border-b w-full md:text-sm md:border-none">
-      <div className="border-b border-[#EBCFA7] items-center max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto md:flex">
+      <div
+        className={`border-b border-[#EBCFA7] ${
+          state ? "bg-black/95" : ""
+        } items-center max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto md:flex px-4 xl:px-0`}
+      >
         <div className="flex items-center justify-between py-3 md:py-5 md:block">
           <Link href="#">
             <img
@@ -26,10 +35,7 @@ const Navbar = () => {
             />
           </Link>
           <div className="md:hidden">
-            <button
-              className="text-gray-500 hover:text-gray-800"
-              onClick={() => setState(!state)}
-            >
+            <button className="text-white" onClick={() => setState(!state)}>
               {state ? (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -62,16 +68,18 @@ const Navbar = () => {
             </button>
           </div>
         </div>
-        <div className={`flex-1 pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+        <div
+          className={`flex-1 pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
             state ? "block" : "hidden"
           }`}
         >
-          <ul className="justify-end items-center space-y-6 md:flex md:space-x-10 md:space-y-0">
+          <ul className="justify-end items-center space-y-10 md:flex md:space-x-10 md:space-y-0">
             {navigation.map((item, idx) => {
               return (
                 <li
                   key={idx}
-                  className="text-white hover:text-gray-100 text-[1.05rem] font-semibold uppercase tracking-wide"
+                  onClick={handleLinkClick}
+                  className="text-white text-center hover:text-gray-100 text-[0.95rem] font-semibold uppercase tracking-wide"
                 >
                   <a href={item.path} className="block">
                     {item.title}
@@ -79,6 +87,25 @@ const Navbar = () => {
                 </li>
               );
             })}
+            <div className="contact_details flex justify-center items-center gap-2 text-white">
+              <div className="number_email text-center sm:text-right pb-6 sm:pb-0">
+                <Link
+                  href="tel:+92-332-2222929"
+                  className="mb-2 sm:mb-0 text-[17px] font-medium block"
+                >
+                  +92 332 2222929
+                </Link>
+                <Link
+                  href="mailto:info@ammarforte.com"
+                  className="text-sm font-medium"
+                >
+                  info@ammarforte.com
+                </Link>
+              </div>
+              <div className="icons hidden md:block">
+                <IoMdPhonePortrait size={30} />
+              </div>
+            </div>
           </ul>
         </div>
       </div>

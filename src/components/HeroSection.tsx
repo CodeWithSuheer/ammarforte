@@ -1,11 +1,15 @@
 "use client";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { IoMdArrowDropright } from "react-icons/io";
 import "./Components.css";
 import Slider from "react-slick";
 import Image from "next/image";
 import "slick-carousel/slick/slick.css";
-import { useEffect, useRef, useState } from "react";
+import { FaFacebookF } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa6";
+import { FaTiktok } from "react-icons/fa";
 
 const data = [
   {
@@ -32,7 +36,7 @@ const HeroSection = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    pauseOnHover: false,
+    pauseOnHover: true,
     arrows: false,
   };
 
@@ -69,23 +73,48 @@ const HeroSection = () => {
               <div className="relative w-full min-h-screen focus:outline-none">
                 <Image
                   fill
-                  className="absolute"
+                  className="absolute object-cover"
                   src={data?.image}
                   alt={data?.alt}
                 />
-                <div className="absolute pl-[10rem]">
+                <div className="absolute px-3 sm:pl-[8rem]">
                   <div className="flex justify-start items-center min-h-screen">
-                    <div className="content px-0 sm:px-20 lg:px-0 mt-36 lg:mt-0">
-                      <h2 className="mb-8 text-7xl text-[#EBCFA7] font-medium pr-5">
-                        Homepark Elite Residences
+                    <div className="social text-center hidden sm:block pt-24">
+                      <div className="vertical pt-10 pb-16">
+                        <p className="text-gray-50 font-semibold text-md tracking-wider transform rotate-90">
+                          SOCIAL MEDIA
+                        </p>
+                      </div>
+
+                      <p className="h-10 w-px bg-gray-50 text-center mx-auto"></p>
+
+                      <div className="links pt-2 flex items-center justify-start flex-col gap-2.5">
+                        <a href="#" className="">
+                          <FaFacebookF className="text-white h-7 w-7 p-1.5" />
+                        </a>
+                        <a href="#" className="">
+                          <FaInstagram className="text-white h-7 w-7 p-1.5" />
+                        </a>
+                        <a href="#" className="">
+                          <FaLinkedinIn className="text-white h-7 w-7 p-1.5" />
+                        </a>
+                        <a href="#" className="">
+                          <FaTiktok className="text-white h-7 w-7 p-1.5" />
+                        </a>
+                      </div>
+                    </div>
+
+                    <div className="content px-0 sm:px-20 lg:px-0 mt-0 lg:mt-0">
+                      <h2 className="mb-8 text-6xl lg:text-6xl xl:text-7xl text-[#EBCFA7] font-medium pr-5">
+                        Ammar Forte
                       </h2>
-                      <p className="mb-10 tracking-wide max-w-md sm:max-w-xl xl:max-w-md text-white text-3xl font-semibold">
-                        We build your dream house
+                      <p className="mb-10 tracking-wide max-w-md sm:max-w-2xl xl:max-w-full text-white text-xl sm:text-2xl font-medium sm:font-semibold">
+                        We help you to chase your Dream Real Estate
                       </p>
 
                       <Link
                         href="#"
-                        className="card w-[18rem] px-8 py-4 text-md flex justify-center items-center tracking-widest border border-[#EBCFA7] text-white hover:bg-[#A57F4D] hover:border-[#A57F4D]"
+                        className="card sm:w-[18rem] px-8 py-4 text-md flex justify-center items-center tracking-widest border border-[#EBCFA7] text-white bg-[#A57F4D] hover:bg-[#A57F4D] hover:border-[#A57F4D]"
                       >
                         GET A CONSULTATION <IoMdArrowDropright />
                       </Link>
