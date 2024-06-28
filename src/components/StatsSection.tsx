@@ -4,7 +4,7 @@ import React from "react";
 const StatsSection: React.FC = () => {
   return (
     <>
-      <section className="bg-[#f9f9f9] py-16 w-full">
+      <section className="bg-[#f9f9f9] py-16 w-full px-4 lg:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto">
           {/* HEADING SECTION */}
           <div className="text-center w-[100%]">
@@ -19,7 +19,7 @@ const StatsSection: React.FC = () => {
             </h3>
           </div>
 
-          <div className="pt-6 w-full flex justify-center sm:justify-between items-center flex-wrap">
+          <div className="pt-6 w-full flex justify-center sm:justify-between gap-y-3 items-center flex-wrap">
             {/* FIRST BOX */}
             <div className="box px-2 sm:px-4 flex justify-center items-center flex-col">
               <div className="">

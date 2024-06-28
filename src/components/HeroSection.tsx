@@ -108,13 +108,13 @@ const HeroSection = () => {
                       <h2 className="mb-8 text-6xl lg:text-6xl xl:text-7xl text-[#EBCFA7] font-medium pr-5">
                         Ammar Forte
                       </h2>
-                      <p className="mb-10 tracking-wide max-w-md sm:max-w-2xl xl:max-w-full text-white text-xl sm:text-2xl font-medium sm:font-semibold">
+                      <p className="mb-10 pr-4 tracking-wide max-w-md sm:max-w-2xl xl:max-w-full text-white text-sm sm:text-2xl font-medium sm:font-semibold">
                         We help you to chase your Dream Real Estate
                       </p>
 
                       <Link
                         href="#"
-                        className="card sm:w-[18rem] px-8 py-4 text-md flex justify-center items-center tracking-widest border border-[#EBCFA7] text-white bg-[#A57F4D] hover:bg-[#A57F4D] hover:border-[#A57F4D]"
+                        className="card w-[14rem] sm:w-[18rem] py-4 text-sm sm:text-md flex justify-center items-center tracking-widest border border-[#EBCFA7] text-white bg-[#A57F4D] hover:bg-[#A57F4D] hover:border-[#A57F4D]"
                       >
                         GET A CONSULTATION <IoMdArrowDropright />
                       </Link>

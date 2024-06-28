@@ -5,7 +5,7 @@ const Gallery = () => {
     <>
       <section className="bg-[#f9f9f9] py-24 flex flex-wrap w-[100%] ">
         {/* HEADING SECTION */}
-        <div className="text-center w-[100%]">
+        <div className="text-center w-[100%] px-4 lg:px-0">
           <span className="block text-2xl font-extrabold opacity-20 mb-1">
             02
           </span>

@@ -12,8 +12,8 @@ export default function Home() {
       <section id="home"><Intro /></section>
       <section id="stats"><StatsSection /></section>
       <section id="gallery"><Gallery /></section>
-      <section id="gallery"><Project /></section>
-      <section id="gallery"><Blogs /></section>
+      <section id="project"><Project /></section>
+      <section id="blogs"><Blogs /></section>
     </main>
   );
 }

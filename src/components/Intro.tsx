@@ -46,7 +46,7 @@ const Intro = () => {
               src="https://dummyimage.com/720x600"
             />
           </div>
-          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex px-4 flex-col md:items-start md:text-left items-center text-center">
+          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex px-5 flex-col md:items-start md:text-left items-center text-center">
             <div className="col-lg-6 wow fadeInUp">
               <div className="content-box">
                 <div className="text-start w-[100%]">

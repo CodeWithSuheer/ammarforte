@@ -36,25 +36,25 @@ const Footer = () => {
               <div className="flex flex-col items-start mt-3 space-y-2">
                 <Link
                   href="/"
-                  className="text-black transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+                  className="text-gray-50 transition-colors duration-300 hover:underline hover:text-[#A57F4D]"
                 >
                   Home
                 </Link>
                 <Link
                   href="/about"
-                  className="text-black transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+                  className="text-gray-50 transition-colors duration-300 hover:underline hover:text-[#A57F4D]"
                 >
                   About Us
                 </Link>
                 <Link
                   href="/contact"
-                  className="text-black transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+                  className="text-gray-50 transition-colors duration-300 hover:underline hover:text-[#A57F4D]"
                 >
                   Contact Us
                 </Link>
                 <Link
                   href="/privacy-policy"
-                  className="text-black transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+                  className="text-gray-50 transition-colors duration-300 hover:underline hover:text-[#A57F4D]"
                 >
                   Privacy Policy
                 </Link>
@@ -67,19 +67,19 @@ const Footer = () => {
               <div className="flex flex-col items-start mt-3 space-y-2">
                 <Link
                   href="/online-classes"
-                  className="text-black transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+                  className="text-gray-50 transition-colors duration-300 hover:underline hover:text-[#A57F4D]"
                 >
                   Brands Village Sialkot
                 </Link>
                 <Link
                   href="/exams"
-                  className="text-black transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+                  className="text-gray-50 transition-colors duration-300 hover:underline hover:text-[#A57F4D]"
                 >
                   Brands Village Queeta
                 </Link>
                 <Link
                   href="/assignments"
-                  className="text-black transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
+                  className="text-gray-50 transition-colors duration-300 hover:underline hover:text-[#A57F4D]"
                 >
                   Bahira Town Lahore
                 </Link>
@@ -143,7 +143,7 @@ const Footer = () => {
         </div>
 
         {/* FOOTER BOTTOM PART  */}
-        <div className="text-sm py-4 sm:py-7 px-4 md:px-10 border-t bg-[#A57F4D] text-center text-white">
+        <div className="text-sm py-4 sm:py-5 px-4 md:px-10 border-t bg-[#A57F4D] text-center text-white">
           <p>Copyrights © 2024 All Rights Reserved by Ammar Forte</p>
         </div>
       </footer>
