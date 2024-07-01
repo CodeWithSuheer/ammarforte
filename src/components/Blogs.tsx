@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Blogs = () => {
@@ -14,16 +15,18 @@ const Blogs = () => {
           </p>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div className="group hover:bg-gray-100 rounded-xl p-0 sm:p-2 lg:p-5 transition-all">
+          <Link href="/blogs/1" className="group hover:bg-gray-100 rounded-xl p-0 sm:p-2 lg:p-5 transition-all">
             <div className="aspect-w-16 aspect-h-10">
               <img
                 alt="Image Description"
                 className="w-full object-cover rounded-xl h-60"
-                src="https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80"
+                src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/Gemini_Generated_Image_exeodbexeodbexeo.webp?v=1719844961"
               />
             </div>
-            <h3 className="mt-5 text-xl text-gray-800">
-              Unity’s inside sales team drives 80% of its revenue with Preline.
+            <h3 className="mt-5 text-xl text-gray-800 line-clamp-2">
+              Thinking of selling? Visualize a well-maintained house with a
+              freshly painted door, a manicured lawn bursting with colorful
+              flowers.
             </h3>
             <p className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold text-gray-800">
               Learn more
@@ -42,18 +45,19 @@ const Blogs = () => {
                 <path d="m9 18 6-6-6-6" />
               </svg>
             </p>
-          </div>
-          <div className="group hover:bg-gray-100 rounded-xl p-0 sm:p-2 lg:p-5 transition-all">
+          </Link>
+          <Link href="/blogs/2"  className="group hover:bg-gray-100 rounded-xl p-0 sm:p-2 lg:p-5 transition-all">
             <div className="aspect-w-16 aspect-h-10">
               <img
                 alt="Image Description"
                 className="w-full object-cover rounded-xl h-60"
-                src="https://images.unsplash.com/photo-1669739432571-aee1f057c41f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1065&q=80"
+                src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/Gemini_Generated_Image_28okwf28okwf28ok.webp?v=1719844961"
               />
             </div>
-            <h3 className="mt-5 text-xl text-gray-800">
-              Living Spaces creates a unified experience across the customer
-              journey.
+            <h3 className="mt-5 text-xl text-gray-800 line-clamp-2">
+              Considering becoming a landlord? Picture a classic red brick
+              apartment building with three floors and inviting balconies.
+              Rental properties offer the potential .
             </h3>
             <p className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold text-gray-800">
               Learn more
@@ -72,17 +76,19 @@ const Blogs = () => {
                 <path d="m9 18 6-6-6-6" />
               </svg>
             </p>
-          </div>
-          <div className="group hover:bg-gray-100 rounded-xl p-0 sm:p-2 lg:p-5 transition-all">
+          </Link>
+          <Link href="/blogs/3"  className="group hover:bg-gray-100 rounded-xl p-0 sm:p-2 lg:p-5 transition-all">
             <div className="aspect-w-16 aspect-h-10">
               <img
                 alt="Image Description"
                 className="w-full object-cover rounded-xl h-60"
-                src="https://images.unsplash.com/photo-1657299171054-e679f630a776?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/Gemini_Generated_Image_exeodcexeodcexeo.webp?v=1719844961"
               />
             </div>
-            <h3 className="mt-5 text-xl text-gray-800">
-              Atlassian powers sales and support at scale with Preline.
+            <h3 className="mt-5 text-xl text-gray-800 line-clamp-2">
+              Empowering yourself with real estate knowledge is key to
+              navigating this exciting market. Whether you're a first-time
+              homebuyer or a seasoned investor.
             </h3>
             <p className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold text-gray-800">
               Learn more
@@ -101,7 +107,7 @@ const Blogs = () => {
                 <path d="m9 18 6-6-6-6" />
               </svg>
             </p>
-          </div>
+          </Link>
         </div>
       </div>
     </>

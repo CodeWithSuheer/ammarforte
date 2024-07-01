@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Gallery = () => {
   return (
@@ -22,59 +23,54 @@ const Gallery = () => {
             <div className="space-y-2">
               <img
                 alt="Image Description"
-                className="w-full h-auto object-cover"
-                src="https://images.unsplash.com/photo-1540575861501-7cf05a4b125a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                className=" h-[13rem] object-cover w-[18.6rem] rounded"
+                src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/office1.webp?v=1719842515"
               />
               <img
                 alt="Image Description"
-                className="w-full h-auto object-cover"
-                src="https://images.unsplash.com/photo-1668906093328-99601a1aa584?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=986&q=80"
-              />
-              <img
-                alt="Image Description"
-                className="w-full h-auto object-cover"
-                src="https://images.unsplash.com/photo-1567016526105-22da7c13161a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
+                className=" h-[42rem] object-cover w-[18.6rem] rounded"
+                src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/6.webp?v=1719860425"
               />
             </div>
             <div className="space-y-2">
               <img
                 alt="Image Description"
-                className="w-full h-auto object-cover"
-                src="https://images.unsplash.com/photo-1668584054131-d5721c515211?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80"
+                className="h-[22rem] object-cover w-[18.6rem] rounded"
+                src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/office2.webp?v=1719842516"
               />
               <img
                 alt="Image Description"
-                className="w-full h-auto object-cover"
-                src="https://images.unsplash.com/photo-1664574654529-b60630f33fdb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
-              />
-            </div>
-            <div className="space-y-2">
-              <img
-                alt="Image Description"
-                className="w-full h-auto object-cover"
-                src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-              />
-              <img
-                alt="Image Description"
-                className="w-full h-auto object-cover"
-                src="https://images.unsplash.com/photo-1586232702178-f044c5f4d4b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80"
-              />
-              <img
-                alt="Image Description"
-                className="w-full h-auto object-cover"
-                src="https://images.unsplash.com/photo-1542125387-c71274d94f0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                className="h-[33rem] object-cover w-[18.6rem] rounded"
+                src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/7.webp?v=1719860425"
               />
             </div>
             <div className="space-y-2">
               <img
                 alt="Image Description"
-                className="w-full h-auto object-cover"
-                src="https://images.unsplash.com/photo-1668869713519-9bcbb0da7171?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=988&q=80"
+                className="h-[12rem] object-cover w-[20rem] rounded"
+                src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/office3.webp?v=1719842515"
               />
               <img
                 alt="Image Description"
-                className="w-full h-auto object-cover"
-                src="https://images.unsplash.com/photo-1668584054035-f5ba7d426401?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3465&q=80"
+                className="h-[25rem] object-cover w-[20rem] rounded"
+                src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/8.webp?v=1719860425"
+              />
+              <img
+                alt="Image Description"
+                className="h-[17.5rem] object-cover w-[20rem] rounded"
+                src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/office5.webp?v=1719842515"
+              />
+            </div>
+            <div className="space-y-2">
+              <img
+                alt="Image Description"
+                className="h-[30rem] object-cover w-[20rem] rounded"
+                src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/9.webp?v=1719860424"
+              />
+              <img
+                alt="Image Description"
+                className="h-[25rem] object-cover w-[20rem] rounded"
+                src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/office4.webp?v=1719842515"
               />
             </div>
           </div>
