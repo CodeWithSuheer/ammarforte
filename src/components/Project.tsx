@@ -5,12 +5,14 @@ const Project = () => {
   return (
     <>
       {/* FIRST PROJECT */}
-      <section className="project-1 w-full px-2 xl:px-0">
+      <section className="project-1 w-full px-0 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 lg:pt-20 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
-            <img
+            <Image
+              width={600}
+              height={600}
               alt="hero"
-              className="object-cover object-center rounded-lg h-[22rem] transition duration-500 group-hover:scale-105 w-full"
+              className="object-cover object-center rounded-lg h-[14rem] sm:h-[22rem] transition duration-500 group-hover:scale-105 w-full"
               src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/m.webp?v=1719843374"
             />
           </div>
@@ -18,12 +20,12 @@ const Project = () => {
             <div className="col-lg-6 wow fadeInUp">
               <div className="content-box">
                 <div className="text-start w-[100%]">
-                  <h4 className="playfair backdrop:block text-4xl mb-4">
+                  <h4 className="playfair backdrop:block text-3xl sm:text-4xl mb-4">
                     <span className="playfair text-[#9f8054]">
                       Brands Village Gujranwala
                     </span>
                   </h4>
-                  <p className="font-semibold text-xl text-[#252525] mb-5">
+                  <p className="font-semibold text-lg sm:text-xl text-[#252525] mb-5">
                     Living spaces for creative peoples
                   </p>
 
@@ -47,16 +49,16 @@ const Project = () => {
       </section>
 
       {/* SECOND PROJECT */}
-      <section className="project-2 w-full px-2 xl:px-0">
+      <section className="project-2 w-full px-0 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex px-5 flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <div className="text-start w-[100%]">
-              <h4 className="playfair backdrop:block text-4xl mb-4">
+              <h4 className="playfair backdrop:block text-3xl sm:text-4xl mb-4">
                 <span className="playfair text-[#9f8054]">
                   Brands Village Quetta
                 </span>
               </h4>
-              <p className="font-semibold text-xl text-[#252525] mb-5">
+              <p className="font-semibold text-lg sm:text-xl text-[#252525] mb-5">
                 Living spaces for creative peoples
               </p>
 
@@ -74,9 +76,11 @@ const Project = () => {
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 group overflow-hidden rounded-lg">
-            <img
+            <Image
+              width={600}
+              height={600}
               alt="hero"
-              className="object-cover object-center rounded-lg h-[22rem] transition duration-500 group-hover:scale-105 w-full"
+              className="object-cover object-center rounded-lg h-[14rem] sm:h-[22rem] transition duration-500 group-hover:scale-105 w-full"
               src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/bvQ.webp?v=1719843373"
             />
           </div>
@@ -84,12 +88,14 @@ const Project = () => {
       </section>
 
       {/* THIRD PROJECT */}
-      <section className="project-3 w-full px-2 xl:px-0">
+      <section className="project-3 w-full px-0 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
-            <img
+            <Image
+              width={600}
+              height={600}
               alt="hero"
-              className="object-cover object-center rounded-lg h-[22rem] transition duration-500 group-hover:scale-105 w-full"
+              className="object-cover object-center rounded-lg h-[14rem] sm:h-[22rem] transition duration-500 group-hover:scale-105 w-full"
               src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/cloud_apartments.webp?v=1719844179"
             />
           </div>
@@ -97,12 +103,12 @@ const Project = () => {
             <div className="col-lg-6 wow fadeInUp">
               <div className="content-box">
                 <div className="text-start w-[100%]">
-                  <h4 className="playfair backdrop:block text-4xl mb-4">
+                  <h4 className="playfair backdrop:block text-3xl sm:text-4xl mb-4">
                     <span className="playfair text-[#9f8054]">
                       Clouds Casa Murree
                     </span>
                   </h4>
-                  <p className="font-semibold text-xl text-[#252525] mb-5">
+                  <p className="font-semibold text-lg sm:text-xl text-[#252525] mb-5">
                     Living spaces for creative peoples
                   </p>
 

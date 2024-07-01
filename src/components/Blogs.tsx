@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -15,11 +16,16 @@ const Blogs = () => {
           </p>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          <Link href="/blogs/1" className="group hover:bg-gray-100 rounded-xl p-0 sm:p-2 lg:p-5 transition-all">
+          <Link
+            href="/blogs/1"
+            className="group hover:bg-gray-100 rounded-xl p-0 sm:p-2 lg:p-5 transition-all"
+          >
             <div className="aspect-w-16 aspect-h-10">
-              <img
+              <Image
+                width={600}
+                height={600}
                 alt="Image Description"
-                className="w-full object-cover rounded-xl h-60"
+                className="w-full object-cover rounded-xl h-48 sm:h-60"
                 src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/Gemini_Generated_Image_exeodbexeodbexeo.webp?v=1719844961"
               />
             </div>
@@ -46,11 +52,17 @@ const Blogs = () => {
               </svg>
             </p>
           </Link>
-          <Link href="/blogs/2"  className="group hover:bg-gray-100 rounded-xl p-0 sm:p-2 lg:p-5 transition-all">
+
+          <Link
+            href="/blogs/2"
+            className="group hover:bg-gray-100 rounded-xl p-0 sm:p-2 lg:p-5 transition-all"
+          >
             <div className="aspect-w-16 aspect-h-10">
-              <img
+              <Image
+                width={600}
+                height={600}
                 alt="Image Description"
-                className="w-full object-cover rounded-xl h-60"
+                className="w-full object-cover rounded-xl h-48 sm:h-60"
                 src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/Gemini_Generated_Image_28okwf28okwf28ok.webp?v=1719844961"
               />
             </div>
@@ -77,17 +89,23 @@ const Blogs = () => {
               </svg>
             </p>
           </Link>
-          <Link href="/blogs/3"  className="group hover:bg-gray-100 rounded-xl p-0 sm:p-2 lg:p-5 transition-all">
+
+          <Link
+            href="/blogs/3"
+            className="group hover:bg-gray-100 rounded-xl p-0 sm:p-2 lg:p-5 transition-all"
+          >
             <div className="aspect-w-16 aspect-h-10">
-              <img
+              <Image
+                width={600}
+                height={600}
                 alt="Image Description"
-                className="w-full object-cover rounded-xl h-60"
+                className="w-full object-cover rounded-xl h-48 sm:h-60"
                 src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/Gemini_Generated_Image_exeodcexeodcexeo.webp?v=1719844961"
               />
             </div>
             <h3 className="mt-5 text-xl text-gray-800 line-clamp-2">
               Empowering yourself with real estate knowledge is key to
-              navigating this exciting market. Whether you're a first-time
+              navigating this exciting market. Whether you&apos;re a first-time
               homebuyer or a seasoned investor.
             </h3>
             <p className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold text-gray-800">

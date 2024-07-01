@@ -1,7 +1,8 @@
 "use client";
+import Image from "next/image";
 import { useParams } from "next/navigation";
 
-const page = () => {
+const page = ({ params }: any) => {
   const blogData = [
     {
       id: 1,
@@ -34,19 +35,13 @@ const page = () => {
       p3: "Being a landlord requires effort, including finding tenants, handling repairs, and collecting rent. Conduct thorough background checks on potential tenants to minimize risks.",
     },
   ];
-const params = useParams<{ id: string }>(); // Type the expected parameter
-const { id } = params;
-const blog = blogData.filter((post) => post.id === parseInt(id, 10));
-const post = blog[0];
-// Access the ID with type safety
-
-   
-
-  
+  const id = Number(params.id);
+  const blog = blogData.filter((post) => post.id === id);
+  const post = blog[0];
 
   return (
     <>
-      <div className="w-full h-full bg-black">
+      <div className="w-full h-full bg-[#1b1b1b]">
         <div className="max-w-3xl px-4 pt-24 sm:pt-28 lg:pt-32 pb-12 sm:px-6 lg:px-8 mx-auto">
           <div className="max-w-2xl">
             {/* Content */}
@@ -58,11 +53,15 @@ const post = blog[0];
                 <p className="text-lg  text-white">{post.p1}</p>
               </div>
 
-              <h2 className="text-lg font-bold md:text-2xl">{post.h2}</h2>
+              <h2 className="text-lg font-bold text-white md:text-2xl">
+                {post.h2}
+              </h2>
 
               <p className="text-lg text-white">{post.p2}</p>
               <figure>
-                <img
+                <Image
+                  width={600}
+                  height={600}
                   className="w-full object-cover rounded-xl"
                   src={post.img}
                   alt="Image Description"
