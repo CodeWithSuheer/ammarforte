@@ -33,11 +33,11 @@ const Intro = () => {
   return (
     <>
       <section className="text-gray-600">
-        <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-24 md:flex-row flex-col items-center">
-          <div className="re lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+        <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-0 md:flex-row flex-col items-center min-h-[80vh]">
+          <div className="relative lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <img
               alt="hero"
-              className="object-cover object-center rounded"
+              className="object-cover object-center h-[40rem]"
               src="https://cdn.shopify.com/s/files/1/0852/5099/8550/files/Side_Banner.webp?v=1719609824"
             />
           </div>
@@ -71,7 +71,7 @@ const Intro = () => {
         </div>
       </section>
 
-      <section className="pb-16">
+      <section className="py-16">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto">
           <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5">
             {data.map((data) => (

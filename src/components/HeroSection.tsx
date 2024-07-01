@@ -22,16 +22,16 @@ const data = [
   {
     id: 2,
     image:
-      "https://cdn.shopify.com/s/files/1/0852/5099/8550/files/Group_2.webp?v=1719605230",
+      "https://cdn.shopify.com/s/files/1/0852/5099/8550/files/Group_3.webp?v=1719605230",
     alt: "image",
-    name: "Brands Village Quetta",
+    name: "Clouds Casa Murree",
   },
   {
     id: 3,
     image:
-      "https://cdn.shopify.com/s/files/1/0852/5099/8550/files/Group_3.webp?v=1719605230",
+      "https://cdn.shopify.com/s/files/1/0852/5099/8550/files/Group_2.webp?v=1719605230",
     alt: "image",
-    name: "Clouds Casa Murree",
+    name: "Brands Village Quetta",
   },
   {
     id: 4,
@@ -108,28 +108,24 @@ const HeroSection = () => {
                         <a
                           href="https://www.facebook.com/ammarforte1"
                           target="_blank"
-                          className=""
                         >
                           <FaFacebookF className="text-white h-7 w-7 p-1.5" />
                         </a>
                         <a
                           href="https://www.instagram.com/ammarforte/?hl=en"
                           target="_blank"
-                          className=""
                         >
                           <FaInstagram className="text-white h-7 w-7 p-1.5" />
                         </a>
                         <a
                           href="https://www.linkedin.com/company/ammarforte/?originalSubdomain=pk"
                           target="_blank"
-                          className=""
                         >
                           <FaLinkedinIn className="text-white h-7 w-7 p-1.5" />
                         </a>
                         <a
                           href="https://www.youtube.com/channel/UCDcFBh8I_tyoriNew2QpJYg"
                           target="_blank"
-                          className=""
                         >
                           <FaYoutube className="text-white h-7 w-7 p-1.5" />
                         </a>
@@ -146,7 +142,7 @@ const HeroSection = () => {
                       </p>
 
                       <Link
-                        href="#"
+                        href="tel:+92-332-2222929"
                         className="card w-[14rem] sm:w-[18rem] py-4 text-sm sm:text-md flex justify-center items-center tracking-widest border border-[#EBCFA7] text-white  hover:bg-[#A57F4D] hover:border-[#A57F4D]"
                       >
                         GET A CONSULTATION <IoMdArrowDropright />
