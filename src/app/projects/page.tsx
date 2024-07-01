@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FaHome } from "react-icons/fa";
@@ -44,9 +45,11 @@ const page = () => {
       <section className="project-1 w-full px-2 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 lg:pt-20 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
-            <img
+            <Image
+              width={600}
+              height={600}
               alt="hero"
-              className="object-cover object-center rounded-lg h-[22rem] transition duration-500 group-hover:scale-105 w-full"
+              className="object-cover object-center rounded-lg h-[14rem] sm:h-[22rem] transition duration-500 group-hover:scale-105 w-full"
               src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/m.webp?v=1719843374"
             />
           </div>
@@ -110,9 +113,11 @@ const page = () => {
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 group overflow-hidden rounded-lg">
-            <img
+            <Image
+              width={600}
+              height={600}
               alt="hero"
-              className="object-cover object-center rounded-lg h-[22rem] transition duration-500 group-hover:scale-105 w-full"
+              className="object-cover object-center rounded-lg h-[14rem] sm:h-[22rem] transition duration-500 group-hover:scale-105 w-full"
               src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/bvQ.webp?v=1719843373"
             />
           </div>
@@ -123,9 +128,11 @@ const page = () => {
       <section className="project-3 w-full px-2 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
-            <img
+            <Image
+              width={600}
+              height={600}
               alt="hero"
-              className="object-cover object-center rounded-lg h-[22rem] transition duration-500 group-hover:scale-105 w-full"
+              className="object-cover object-center rounded-lg h-[14rem] sm:h-[22rem] transition duration-500 group-hover:scale-105 w-full"
               src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/cloud_apartments.webp?v=1719844179"
             />
           </div>
@@ -188,7 +195,9 @@ const page = () => {
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 group overflow-hidden rounded-lg">
-            <img
+            <Image
+              width={600}
+              height={600}
               alt="hero"
               className="object-cover object-center rounded-lg h-[22rem] transition duration-500 group-hover:scale-105 w-full"
               src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/p5.webp?v=1719861784"
@@ -201,8 +210,11 @@ const page = () => {
       <section className="project-5 w-full px-2 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
-            <img
+            <Image
+              width={600}
+              height={600}
               alt="hero"
+
               className="object-cover object-center rounded-lg h-[22rem] transition duration-500 group-hover:scale-105 w-full"
               src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/p4.webp?v=1719861902"
             />
