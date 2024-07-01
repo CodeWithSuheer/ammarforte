@@ -7,10 +7,10 @@ const Navbar = () => {
   const [state, setState] = useState(false);
 
   const navigation = [
-    { title: "Home", path: "#" },
-    { title: "Projects", path: "#" },
-    { title: "About Us", path: "#" },
-    { title: "Contact Us", path: "#" },
+    { title: "Home", path: "/" },
+    { title: "Projects", path: "projects" },
+    { title: "About Us", path: "/about" },
+    { title: "Contact Us", path: "/contact" },
   ];
 
   const handleLinkClick = () => {
@@ -28,7 +28,7 @@ const Navbar = () => {
         } items-center max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto md:flex px-4 xl:px-0`}
       >
         <div className="flex items-center justify-between py-3 md:py-5 md:block">
-          <Link href="#">
+          <Link href="/">
             <img
               src="https://cdn.shopify.com/s/files/1/0852/5099/8550/files/ammmar.png?v=1719436690"
               width={80}
@@ -83,9 +83,9 @@ const Navbar = () => {
                   onClick={handleLinkClick}
                   className="text-white text-center hover:text-gray-100 text-[0.95rem] font-semibold uppercase tracking-wide"
                 >
-                  <a href={item.path} className="block">
+                  <Link href={item.path} className="block">
                     {item.title}
-                  </a>
+                  </Link>
                 </li>
               );
             })}

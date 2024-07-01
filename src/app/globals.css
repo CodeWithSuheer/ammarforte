@@ -45,3 +45,24 @@ body::-webkit-scrollbar-thumb {
     text-wrap: balance;
   }
 }
+
+.projectsSectionbg {
+  background-image: url("https://cdn.shopify.com/s/files/1/0852/5099/8550/files/Group_3.webp?v=1719605230");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contactSectionbg {
+  background-image: url("https://cdn.shopify.com/s/files/1/0852/5099/8550/files/Group_2.webp?v=1719605230");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutSectionbg {
+  background-image: url("https://cdn.shopify.com/s/files/1/0852/5099/8550/files/Group_1.webp?v=1719605230");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
