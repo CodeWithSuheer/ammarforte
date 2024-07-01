@@ -199,7 +199,7 @@ const page = () => {
               width={600}
               height={600}
               alt="hero"
-              className="object-cover object-center rounded-lg h-[22rem] transition duration-500 group-hover:scale-105 w-full"
+              className="object-cover object-center rounded-lg  h-[14rem] sm:h-[22rem] transition duration-500 group-hover:scale-105 w-full"
               src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/p5.webp?v=1719861784"
             />
           </div>
@@ -214,8 +214,7 @@ const page = () => {
               width={600}
               height={600}
               alt="hero"
-
-              className="object-cover object-center rounded-lg h-[22rem] transition duration-500 group-hover:scale-105 w-full"
+              className="object-cover object-center rounded-lg  h-[14rem] sm:h-[22rem] transition duration-500 group-hover:scale-105 w-full"
               src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/p4.webp?v=1719861902"
             />
           </div>
@@ -280,9 +279,11 @@ const page = () => {
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 group overflow-hidden rounded-lg">
-            <img
+            <Image
+              width={600}
+              height={600}
               alt="hero"
-              className="object-cover object-center rounded-lg h-[22rem] transition duration-500 group-hover:scale-105 w-full"
+              className="object-cover object-center rounded-lg  h-[14rem] sm:h-[22rem] transition duration-500 group-hover:scale-105 w-full"
               src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/p6.webp?v=1719862055"
             />
           </div>
@@ -293,9 +294,11 @@ const page = () => {
       <section className="project-5 w-full px-2 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
-            <img
+            <Image
+              width={600}
+              height={600}
               alt="hero"
-              className="object-cover object-center rounded-lg h-[22rem] transition duration-500 group-hover:scale-105 w-full"
+              className="object-cover object-center rounded-lg  h-[14rem] sm:h-[22rem] transition duration-500 group-hover:scale-105 w-full"
               src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/s5.webp?v=1719862249"
             />
           </div>
@@ -359,9 +362,11 @@ const page = () => {
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 group overflow-hidden rounded-lg">
-            <img
+            <Image
+              width={600}
+              height={600}
               alt="hero"
-              className="object-cover object-center rounded-lg h-[22rem] transition duration-500 group-hover:scale-105 w-full"
+              className="object-cover object-center rounded-lg  h-[14rem] sm:h-[22rem] transition duration-500 group-hover:scale-105 w-full"
               src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/dha.webp?v=1719862400"
             />
           </div>
