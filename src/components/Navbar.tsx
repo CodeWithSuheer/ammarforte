@@ -14,8 +14,10 @@ const Navbar = () => {
   ];
 
   const handleLinkClick = () => {
-    setState(!state);
-    window.scroll(0, 0);
+    if (window.innerWidth < 768) {
+      setState(false);
+      window.scroll(0, 0);
+    }
   };
 
   return (

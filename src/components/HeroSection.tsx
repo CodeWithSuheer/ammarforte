@@ -9,20 +9,36 @@ import "slick-carousel/slick/slick.css";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
-import { FaTiktok } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
 
 const data = [
   {
     id: 1,
     image:
-      "https://cdn.shopify.com/s/files/1/0852/5099/8550/files/slide03.jpg?v=1719430931",
+      "https://cdn.shopify.com/s/files/1/0852/5099/8550/files/Group_1.webp?v=1719605230",
     alt: "image",
+    name: "Cuesta Murree",
   },
   {
     id: 2,
     image:
-      "https://cdn.shopify.com/s/files/1/0852/5099/8550/files/slide02.jpg?v=1719428238",
+      "https://cdn.shopify.com/s/files/1/0852/5099/8550/files/Group_2.webp?v=1719605230",
     alt: "image",
+    name: "Brands Village Quetta",
+  },
+  {
+    id: 3,
+    image:
+      "https://cdn.shopify.com/s/files/1/0852/5099/8550/files/Group_3.webp?v=1719605230",
+    alt: "image",
+    name: "Clouds Casa Murree",
+  },
+  {
+    id: 4,
+    image:
+      "https://cdn.shopify.com/s/files/1/0852/5099/8550/files/Group_4.webp?v=1719605230",
+    alt: "image",
+    name: "Metropole Rawalpindi",
   },
 ];
 
@@ -36,7 +52,7 @@ const HeroSection = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    pauseOnHover: true,
+    pauseOnHover: false,
     arrows: false,
   };
 
@@ -89,32 +105,49 @@ const HeroSection = () => {
                       <p className="h-10 w-px bg-gray-50 text-center mx-auto"></p>
 
                       <div className="links pt-2 flex items-center justify-start flex-col gap-2.5">
-                        <a href="#" className="">
+                        <a
+                          href="https://www.facebook.com/ammarforte1"
+                          target="_blank"
+                          className=""
+                        >
                           <FaFacebookF className="text-white h-7 w-7 p-1.5" />
                         </a>
-                        <a href="#" className="">
+                        <a
+                          href="https://www.instagram.com/ammarforte/?hl=en"
+                          target="_blank"
+                          className=""
+                        >
                           <FaInstagram className="text-white h-7 w-7 p-1.5" />
                         </a>
-                        <a href="#" className="">
+                        <a
+                          href="https://www.linkedin.com/company/ammarforte/?originalSubdomain=pk"
+                          target="_blank"
+                          className=""
+                        >
                           <FaLinkedinIn className="text-white h-7 w-7 p-1.5" />
                         </a>
-                        <a href="#" className="">
-                          <FaTiktok className="text-white h-7 w-7 p-1.5" />
+                        <a
+                          href="https://www.youtube.com/channel/UCDcFBh8I_tyoriNew2QpJYg"
+                          target="_blank"
+                          className=""
+                        >
+                          <FaYoutube className="text-white h-7 w-7 p-1.5" />
                         </a>
                       </div>
                     </div>
 
                     <div className="content px-0 sm:px-20 lg:px-0 mt-0 lg:mt-0">
                       <h2 className="mb-8 text-6xl lg:text-6xl xl:text-7xl text-[#EBCFA7] font-medium pr-5">
-                        Ammar Forte
+                        {data.name}
                       </h2>
-                      <p className="mb-10 pr-4 tracking-wide max-w-md sm:max-w-2xl xl:max-w-full text-white text-sm sm:text-2xl font-medium sm:font-semibold">
-                        We help you to chase your Dream Real Estate
+                      <p className="mb-10 pr-4 tracking-wide max-w-md sm:max-w-2xl xl:max-w-xl text-white text-sm sm:text-xl font-medium sm:font-normal">
+                        Leveraging Decades of Experience to Elevate Your Real
+                        Estate Journey!
                       </p>
 
                       <Link
                         href="#"
-                        className="card w-[14rem] sm:w-[18rem] py-4 text-sm sm:text-md flex justify-center items-center tracking-widest border border-[#EBCFA7] text-white bg-[#A57F4D] hover:bg-[#A57F4D] hover:border-[#A57F4D]"
+                        className="card w-[14rem] sm:w-[18rem] py-4 text-sm sm:text-md flex justify-center items-center tracking-widest border border-[#EBCFA7] text-white  hover:bg-[#A57F4D] hover:border-[#A57F4D]"
                       >
                         GET A CONSULTATION <IoMdArrowDropright />
                       </Link>

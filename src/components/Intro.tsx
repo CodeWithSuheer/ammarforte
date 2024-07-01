@@ -5,32 +5,27 @@ const data = [
   {
     id: 1,
     image:
-      "https://cdn.shopify.com/s/files/1/0852/5099/8550/files/logo02.jpg?v=1719505041",
+      "https://cdn.shopify.com/s/files/1/0852/5099/8550/files/p8logo-removebg-preview_png.webp?v=1719608597",
   },
   {
     id: 2,
     image:
-      "https://cdn.shopify.com/s/files/1/0852/5099/8550/files/logo01.jpg?v=1719505040",
+      "https://cdn.shopify.com/s/files/1/0852/5099/8550/files/p4logo-removebg-preview-300x243-1_png.webp?v=1719608597",
   },
   {
     id: 3,
     image:
-      "https://cdn.shopify.com/s/files/1/0852/5099/8550/files/logo02.jpg?v=1719505041",
+      "https://cdn.shopify.com/s/files/1/0852/5099/8550/files/logo_for_newdhalahore-2-removebg-preview_png.webp?v=1719608597",
   },
   {
     id: 4,
     image:
-      "https://cdn.shopify.com/s/files/1/0852/5099/8550/files/logo01.jpg?v=1719505040",
+      "https://cdn.shopify.com/s/files/1/0852/5099/8550/files/p6logo-removebg-preview-300x168-1_png.webp?v=1719608597",
   },
   {
     id: 5,
     image:
-      "https://cdn.shopify.com/s/files/1/0852/5099/8550/files/logo02.jpg?v=1719505041",
-  },
-  {
-    id: 6,
-    image:
-      "https://cdn.shopify.com/s/files/1/0852/5099/8550/files/logo01.jpg?v=1719505040",
+      "https://cdn.shopify.com/s/files/1/0852/5099/8550/files/p5logo-removebg-preview-300x189-1-qpzzcm79rg023ewh4n5u8yg6mubgfj284aqq451n28.png?v=1719608597",
   },
 ];
 
@@ -39,11 +34,11 @@ const Intro = () => {
     <>
       <section className="text-gray-600">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-24 md:flex-row flex-col items-center">
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+          <div className="re lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <img
               alt="hero"
               className="object-cover object-center rounded"
-              src="https://dummyimage.com/720x600"
+              src="https://cdn.shopify.com/s/files/1/0852/5099/8550/files/Side_Banner.webp?v=1719609824"
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex px-5 flex-col md:items-start md:text-left items-center text-center">
@@ -78,15 +73,17 @@ const Intro = () => {
 
       <section className="pb-16">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto">
-          <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-6">
+          <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5">
             {data.map((data) => (
-              <div key={data.id} className="mx-auto">
+              <div
+                key={data.id}
+                className="relative mx-auto h-[11rem] w-[11rem]"
+              >
                 <Image
-                  width={170}
-                  height={170}
+                  fill
                   src={data.image}
                   alt="main_banner_img"
-                  className="rounded-full"
+                  className="object-contain px-8"
                 />
               </div>
             ))}
