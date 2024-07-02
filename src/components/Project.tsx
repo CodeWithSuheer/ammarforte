@@ -18,7 +18,7 @@ const Project = () => {
 
       {/* FIRST PROJECT */}
       <section className="project-1 w-full px-0 xl:px-0">
-        <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 lg:pt-14 md:flex-row flex-col items-center">
+        <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 sm:px-4 py-10 lg:pt-14 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
             <Image
               width={600}
@@ -28,7 +28,7 @@ const Project = () => {
               src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/m.webp?v=1719843374"
             />
           </div>
-          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex px-5 flex-col md:items-start md:text-left items-center text-center">
+          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-10 flex px-5 sm:px-0 flex-col md:items-start md:text-left items-center text-center">
             <div className="col-lg-6 wow fadeInUp">
               <div className="content-box">
                 <div className="text-start w-[100%]">
@@ -72,8 +72,8 @@ const Project = () => {
 
       {/* SECOND PROJECT */}
       <section className="project-2 w-full px-0 xl:px-0">
-        <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex px-5 flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 sm:px-4 py-10 lg:pt-14 md:flex-row flex-col items-center">
+          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex px-5 sm:px-0 flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <div className="text-start w-[100%]">
               <span className="block text-xl font-semibold opacity-50 mb-1">
                 Quetta
@@ -115,7 +115,7 @@ const Project = () => {
 
       {/* THIRD PROJECT */}
       <section className="project-3 w-full px-0 xl:px-0">
-        <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
+        <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 sm:px-4 py-10 lg:pt-14 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
             <Image
               width={600}
@@ -125,7 +125,7 @@ const Project = () => {
               src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/cloud_apartments.webp?v=1719844179"
             />
           </div>
-          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex px-5 flex-col md:items-start md:text-left items-center text-center">
+          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex px-5 sm:px-0 flex-col md:items-start md:text-left items-center text-center">
             <div className="col-lg-6 wow fadeInUp">
               <div className="content-box">
                 <div className="text-start w-[100%]">
@@ -137,7 +137,6 @@ const Project = () => {
                       Clouds Casa Murree
                     </span>
                   </h4>
-                
 
                   <p className="font-normal text-md max-w-lg text-[#252525] mb-4">
                     A Land Developer group operating countrywide since last 15

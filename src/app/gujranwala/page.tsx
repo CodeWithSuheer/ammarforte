@@ -35,6 +35,7 @@ const page = () => {
           </div>
         </div>
       </section>
+      
       <section className="w-full bg-[#1B1B1B]">
         <div className="max-w-[75rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-4 gap-2">
