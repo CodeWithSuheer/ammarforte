@@ -75,14 +75,14 @@ const Project = () => {
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex px-5 flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <div className="text-start w-[100%]">
+              <span className="block text-xl font-semibold opacity-50 mb-1">
+                Quetta
+              </span>
               <h4 className="playfair backdrop:block text-3xl sm:text-4xl mb-4">
                 <span className="playfair text-[#9f8054]">
                   Brands Village Quetta
                 </span>
               </h4>
-              <p className="font-semibold text-lg sm:text-xl text-[#252525] mb-5">
-                Living spaces for creative peoples
-              </p>
 
               <p className="font-normal text-md max-w-lg text-[#252525] mb-4">
                 Brands Village is not specified to just a single location, there
@@ -129,14 +129,15 @@ const Project = () => {
             <div className="col-lg-6 wow fadeInUp">
               <div className="content-box">
                 <div className="text-start w-[100%]">
+                  <span className="block text-xl font-semibold opacity-50 mb-1">
+                    Muree
+                  </span>
                   <h4 className="playfair backdrop:block text-3xl sm:text-4xl mb-4">
                     <span className="playfair text-[#9f8054]">
                       Clouds Casa Murree
                     </span>
                   </h4>
-                  <p className="font-semibold text-lg sm:text-xl text-[#252525] mb-5">
-                    Living spaces for creative peoples
-                  </p>
+                
 
                   <p className="font-normal text-md max-w-lg text-[#252525] mb-4">
                     A Land Developer group operating countrywide since last 15
