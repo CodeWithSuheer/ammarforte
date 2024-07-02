@@ -217,7 +217,8 @@ const page = () => {
               width={600}
               height={600}
               alt="hero"
-              className="object-cover object-center rounded-lg  h-[14rem] sm:h-[22rem] transition duration-500 group-hover:scale-105 w-full"
+
+              className="object-cover object-center rounded-lg h-[22rem] transition duration-500 group-hover:scale-105 w-full"
               src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/p4.webp?v=1719861902"
             />
           </div>
@@ -372,6 +373,47 @@ const page = () => {
               className="object-cover object-center rounded-lg  h-[14rem] sm:h-[22rem] transition duration-500 group-hover:scale-105 w-full"
               src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/dha.webp?v=1719862400"
             />
+          </div>
+        </div>
+      </section>
+
+      {/* Nine PROJECT */}
+      <section className="project-5 w-full px-2 xl:px-0">
+        <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
+            <img
+              alt="hero"
+              className="object-cover object-center rounded-lg h-[22rem] transition duration-500 group-hover:scale-105 w-full"
+              src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/p3.webp?v=1719927629"
+            />
+          </div>
+          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex px-5 flex-col md:items-start md:text-left items-center text-center">
+            <div className="col-lg-6 wow fadeInUp">
+              <div className="content-box">
+                <div className="text-start w-[100%]">
+                  <h4 className="playfair backdrop:block text-4xl mb-4">
+                    <span className="playfair text-[#9f8054]">
+                      Metropole Mall Saddar Rawalpindi
+                    </span>
+                  </h4>
+                  <p className="font-semibold text-xl text-[#252525] mb-5">
+                    Living spaces for creative peoples
+                  </p>
+
+                  <p className="font-normal text-md max-w-lg text-[#252525] mb-4">
+                    Metropole Mall: Where Shopping Meets Luxury. Metropole Mall,
+                    within the sprawling Metropole Arcade complex, is a shopping
+                    haven that sets a new standard for retail therapy in
+                    Rawalpindi. This retail gem is designed to provide a unique
+                    and unforgettable shopping experience, blending
+                  </p>
+
+                  <button className="font-semibold text-[#A57F4D]">
+                    See details
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
