@@ -7,15 +7,13 @@ const Gallery = () => {
       <section className="bg-[#f9f9f9] py-24 flex flex-wrap w-[100%] ">
         {/* HEADING SECTION */}
         <div className="text-center w-[100%] px-4 lg:px-0">
-          <span className="block text-2xl font-extrabold opacity-20 mb-1">
-            02
+          <span className="block text-2xl font-extrabold opacity-40 mb-1">
+            03
           </span>
           <h4 className="block text-2xl mb-1">
-            <span className="text-[#9f8054]">Homepark</span> Property
+            <span className="text-[#9f8054]">Ammar Forte</span> Gallery
           </h4>
-          <h3 className="font-semibold text-2xl">
-            Decorated Flats in Pozniaky - Kiev
-          </h3>
+          <p className="font-semibold text-xl">Journey Through Our Creations</p>
         </div>
 
         <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
