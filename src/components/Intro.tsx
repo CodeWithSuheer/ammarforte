@@ -48,12 +48,9 @@ const Intro = () => {
             <div className="col-lg-6 wow fadeInUp">
               <div className="content-box">
                 <div className="text-start w-[100%]">
-                  <span className="block text-2xl font-extrabold opacity-40 mb-1">
-                    01
-                  </span>
                   <h4 className="playfair backdrop:block text-3xl sm:text-4xl mb-4">
                     <span className="playfair text-[#9f8054]">
-                      Brands Village Quetta
+                      Brands Village Gujranwala
                     </span>
                   </h4>
                   <p className="font-semibold text-lg sm:text-xl text-[#252525] mb-5">
@@ -61,19 +58,21 @@ const Intro = () => {
                   </p>
 
                   <p className="font-normal text-md max-w-lg text-[#252525] mb-3">
-                    A Land Developer group operating countrywide since last 15
-                    years through its subsidiary SECP registered companies of
-                    Project planning, Construction, Marketing and Sales,
-                    adopting best practices of Project Management and
-                    Sustainable Development.
+                    Brand Village Gujranwala is the only the Iconic Project of
+                    Gujranwala City with facilities like high speed elevators,
+                    secure and spacious car parking space, clean environment,
+                    Wi-Fi, banking services & ATMs, foreign exchange, Prayer
+                    rooms, toilets, Parent’s room, wheelchair access, fire alarm
+                    and fighting system.
                   </p>
 
                   <p className="font-normal text-md max-w-lg text-[#252525] mb-4">
-                    A Land Developer group operating countrywide since last 15
-                    years through its subsidiary SECP registered companies of
-                    Project planning, Construction, Marketing and Sales,
-                    adopting best practices of Project Management and
-                    Sustainable Development.
+                    Brands Village is not specified to just a single location,
+                    there will be multiple brands villages launching all across
+                    Pakistan. Brands Village undoubtedly offers the ultimate
+                    entertainment and shopping destination where your senses
+                    will get excited as you walk through more than 50
+                    international & local brands. 
                   </p>
 
                   <Link href="/quetta" className="font-semibold text-[#A57F4D]">

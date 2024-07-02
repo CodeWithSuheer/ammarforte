@@ -57,14 +57,14 @@ const page = () => {
             <div className="col-lg-6 wow fadeInUp">
               <div className="content-box">
                 <div className="text-start w-[100%]">
+                  <span className="block text-xl font-semibold opacity-50 mb-1">
+                    Gujranwala
+                  </span>
                   <h4 className="playfair backdrop:block font-medium sm:font-semibold text-3xl sm:text-4xl mb-4">
                     <span className="playfair text-[#9f8054]">
                       Brands Village Gujranwala
                     </span>
                   </h4>
-                  <p className="font-semibold text-md sm:text-xl text-[#434343] mb-4">
-                    Living spaces for creative peoples
-                  </p>
 
                   <p className="font-normal text-md max-w-lg text-[#252525] mb-8">
                     Brand Village Gujranwala is the only the IconicProject of
@@ -94,14 +94,14 @@ const page = () => {
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex px-5 flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <div className="text-start w-[100%]">
+              <span className="block text-xl font-semibold opacity-50 mb-1">
+                Quetta
+              </span>
               <h4 className="playfair backdrop:block font-medium sm:font-semibold text-3xl sm:text-4xl mb-4">
                 <span className="playfair text-[#9f8054]">
                   Brands Village Quetta
                 </span>
               </h4>
-              <p className="font-semibold text-md sm:text-xl text-[#434343] mb-4">
-                Living spaces for creative peoples
-              </p>
 
               <p className="font-normal text-md max-w-lg text-[#252525] mb-8">
                 Brands Village is not specified to just a single location, there
@@ -148,14 +148,14 @@ const page = () => {
             <div className="col-lg-6 wow fadeInUp">
               <div className="content-box">
                 <div className="text-start w-[100%]">
+                  <span className="block text-xl font-semibold opacity-50 mb-1">
+                    Murree
+                  </span>
                   <h4 className="playfair backdrop:block font-medium sm:font-semibold text-3xl sm:text-4xl mb-4">
                     <span className="playfair text-[#9f8054]">
                       Clouds Casa Murree
                     </span>
                   </h4>
-                  <p className="font-semibold text-md sm:text-xl text-[#434343] mb-4">
-                    Living spaces for creative peoples
-                  </p>
 
                   <p className="font-normal text-md max-w-lg text-[#252525] mb-8">
                     A Land Developer group operating countrywide since last 15
@@ -184,14 +184,14 @@ const page = () => {
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex px-5 flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <div className="text-start w-[100%]">
+              <span className="block text-xl font-semibold opacity-50 mb-1">
+                Karachi
+              </span>
               <h4 className="playfair backdrop:block font-medium sm:font-semibold text-3xl sm:text-4xl mb-4">
                 <span className="playfair text-[#9f8054]">
                   Bahria Town Karachi
                 </span>
               </h4>
-              <p className="font-semibold text-md sm:text-xl text-[#434343] mb-4">
-                Living spaces for creative peoples
-              </p>
 
               <p className="font-normal text-md max-w-lg text-[#252525] mb-8">
                 “Rome wasn&apos;t built in a day” can only be believed by
@@ -238,14 +238,14 @@ const page = () => {
             <div className="col-lg-6 wow fadeInUp">
               <div className="content-box">
                 <div className="text-start w-[100%]">
+                  <span className="block text-xl font-semibold opacity-50 mb-1">
+                    Lahore
+                  </span>
                   <h4 className="playfair backdrop:block font-medium sm:font-semibold text-3xl sm:text-4xl mb-4">
                     <span className="playfair text-[#9f8054]">
                       Al Noor Orchard
                     </span>
                   </h4>
-                  <p className="font-semibold text-md sm:text-xl text-[#434343] mb-4">
-                    Living spaces for creative peoples
-                  </p>
 
                   <p className="font-normal text-md max-w-lg text-[#252525] mb-8">
                     Al-Noor Orchard, the largest LDA-approved project of Lahore
@@ -275,14 +275,14 @@ const page = () => {
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex px-5 flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <div className="text-start w-[100%]">
+              <span className="block text-xl font-semibold opacity-50 mb-1">
+                Lahore
+              </span>
               <h4 className="playfair backdrop:block font-medium sm:font-semibold text-3xl sm:text-4xl mb-4">
                 <span className="playfair text-[#9f8054]">
                   Lahore Smart City
                 </span>
               </h4>
-              <p className="font-semibold text-md sm:text-xl text-[#434343] mb-4">
-                Living spaces for creative peoples
-              </p>
 
               <p className="font-normal text-md max-w-lg text-[#252525] mb-8">
                 Lahore Smart City takes you on a voyage to experience the
@@ -330,14 +330,14 @@ const page = () => {
             <div className="col-lg-6 wow fadeInUp">
               <div className="content-box">
                 <div className="text-start w-[100%]">
+                  <span className="block text-xl font-semibold opacity-50 mb-1">
+                    Sialkot
+                  </span>
                   <h4 className="playfair backdrop:block font-medium sm:font-semibold text-3xl sm:text-4xl mb-4">
                     <span className="playfair text-[#9f8054]">
                       Brands Village Sialkot
                     </span>
                   </h4>
-                  <p className="font-semibold text-md sm:text-xl text-[#434343] mb-4">
-                    Living spaces for creative peoples
-                  </p>
 
                   <p className="font-normal text-md max-w-lg text-[#252525] mb-8">
                     The most project of Sialkot, located at Khawaja Safdar Road
@@ -368,14 +368,14 @@ const page = () => {
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex px-5 flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <div className="text-start w-[100%]">
+              <span className="block text-xl font-semibold opacity-50 mb-1">
+                DHA
+              </span>
               <h4 className="playfair backdrop:block font-medium sm:font-semibold text-3xl sm:text-4xl mb-4">
                 <span className="playfair text-[#9f8054]">
                   DHA (Lahore | Islamabad | Karachi)
                 </span>
               </h4>
-              <p className="font-semibold text-md sm:text-xl text-[#434343] mb-4">
-                Living spaces for creative peoples
-              </p>
 
               <p className="font-normal text-md max-w-lg text-[#252525] mb-8">
                 Defence Housing Authority Lahore is “Nationally recognized
@@ -421,14 +421,14 @@ const page = () => {
             <div className="col-lg-6 wow fadeInUp">
               <div className="content-box">
                 <div className="text-start w-[100%]">
+                  <span className="block text-xl font-semibold opacity-50 mb-1">
+                    Rawalpindi
+                  </span>
                   <h4 className="playfair backdrop:block font-medium sm:font-semibold text-3xl sm:text-4xl mb-4">
                     <span className="playfair text-[#9f8054]">
                       Metropole Mall Saddar Rawalpindi
                     </span>
                   </h4>
-                  <p className="font-semibold text-md sm:text-xl text-[#434343] mb-4">
-                    Living spaces for creative peoples
-                  </p>
 
                   <p className="font-normal text-md max-w-lg text-[#252525] mb-8">
                     Metropole Mall: Where Shopping Meets Luxury. Metropole Mall,
