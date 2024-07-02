@@ -32,14 +32,17 @@ const Project = () => {
             <div className="col-lg-6 wow fadeInUp">
               <div className="content-box">
                 <div className="text-start w-[100%]">
+                  <span className="block text-xl font-semibold opacity-50 mb-1">
+                    Gujranwala
+                  </span>
                   <h4 className="playfair backdrop:block text-3xl sm:text-4xl mb-4">
                     <span className="playfair text-[#9f8054]">
                       Brands Village Gujranwala
                     </span>
                   </h4>
-                  <p className="font-semibold text-lg sm:text-xl text-[#252525] mb-5">
+                  {/* <p className="font-semibold text-lg sm:text-xl text-[#252525] mb-5">
                     Living spaces for creative peoples
-                  </p>
+                  </p> */}
 
                   <p className="font-normal text-md max-w-lg text-[#252525] mb-4">
                     Brand Village Gujranwala is the only the Iconic Project of
