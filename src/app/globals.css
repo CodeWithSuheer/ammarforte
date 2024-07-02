@@ -67,6 +67,11 @@ body::-webkit-scrollbar-thumb {
   background-size: cover;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 /* ----------------- HOVER BUTTON CSS ----------------- */
 
 .hover_button {
