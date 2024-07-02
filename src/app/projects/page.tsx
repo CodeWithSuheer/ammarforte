@@ -346,9 +346,11 @@ const page = () => {
                     and adjoining areas.Brand Village Sialkot is the only the
                     IconicProject of Sialkot City
                   </p>
-
-                  <Link href="/contact" className="mt-2 hover_button card">
-                    Contact
+                  <Link
+                    href="/sialkot"
+                    className="font-semibold text-[#A57F4D]"
+                  >
+                    See details
                   </Link>
                 </div>
               </div>
