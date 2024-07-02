@@ -23,7 +23,7 @@ const Gallery = () => {
                 width={600}
                 height={600}
                 alt="Image Description"
-                className=" h-[10rem] w-[10rem] sm:h-[13rem] object-cover sm:w-[18.6rem] rounded"
+                className=" h-[10rem] w-[10rem] sm:h-[13rem] object-cover sm:w-[20rem] rounded"
                 src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/office1.webp?v=1719842515"
               />
               <Image
@@ -39,14 +39,14 @@ const Gallery = () => {
                 width={600}
                 height={600}
                 alt="Image Description"
-                className="h-[10rem] w-[10rem] sm:h-[22rem] object-cover sm:w-[18.6rem] rounded"
+                className="h-[10rem] w-[10rem] sm:h-[22rem] object-cover sm:w-[20rem] rounded"
                 src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/office2.webp?v=1719842516"
               />
               <Image
                 width={600}
                 height={600}
                 alt="Image Description"
-                className="h-[10rem] w-[10rem] sm:h-[33rem] object-cover sm:w-[18.6rem] rounded"
+                className="h-[10rem] w-[10rem] sm:h-[33rem] object-cover sm:w-[20rem] rounded"
                 src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/7.webp?v=1719860425"
               />
             </div>

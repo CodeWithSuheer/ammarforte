@@ -8,11 +8,10 @@ const Blogs = () => {
       <div className="max-w-[85rem] px-4 py-10 sm:px-4 lg:px-8 lg:py-14 mx-auto">
         <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
           <h2 className="text-2xl font-bold md:text-4xl md:leading-tight">
-            Customer stories
+            Realestate Blog's
           </h2>
           <p className="mt-1 text-gray-600">
-            See how game-changing companies are making the most of every
-            engagement with Preline.
+            Dive into our latest thoughts and insights!
           </p>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -26,7 +25,7 @@ const Blogs = () => {
                 height={600}
                 alt="Image Description"
                 className="w-full object-cover rounded-xl h-48 sm:h-60"
-                src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/Gemini_Generated_Image_exeodbexeodbexeo.webp?v=1719844961"
+                src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/kenny-eliason-mGZX2MOPR-s-unsplash.webp?v=1719930504"
               />
             </div>
             <h3 className="mt-5 text-xl text-gray-800 line-clamp-2">
@@ -63,7 +62,7 @@ const Blogs = () => {
                 height={600}
                 alt="Image Description"
                 className="w-full object-cover rounded-xl h-48 sm:h-60"
-                src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/Gemini_Generated_Image_28okwf28okwf28ok.webp?v=1719844961"
+                src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/naomi-hebert-MP0bgaS_d1c-unsplash.webp?v=1719930550"
               />
             </div>
             <h3 className="mt-5 text-xl text-gray-800 line-clamp-2">
@@ -100,7 +99,7 @@ const Blogs = () => {
                 height={600}
                 alt="Image Description"
                 className="w-full object-cover rounded-xl h-48 sm:h-60"
-                src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/Gemini_Generated_Image_exeodcexeodcexeo.webp?v=1719844961"
+                src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/kara-eads-L7EwHkq1B2s-unsplash.jpg?v=1719931109"
               />
             </div>
             <h3 className="mt-5 text-xl text-gray-800 line-clamp-2">

@@ -6,33 +6,33 @@ const page = ({ params }: any) => {
   const blogData = [
     {
       id: 1,
-      h1: "Conquering the First-Time Homebuyer Hurdles",
-      p1: "Buying your first home can be an exciting yet overwhelming experience. This blog tackles common roadblocks faced by first-timers, offering tips to guide you through the process.",
-      h2: "Essential Steps for First-Time Homebuyers",
-      p2: "  * Budgeting and Pre-Approval: Understanding your affordability and getting pre-approved for a mortgage streamlines the process. \n   * Finding the Right Agent: A realtor with experience in your target area can guide you through negotiations and paperwork. \n   * Understanding the Market: Researching current trends and inventory levels helps you make informed decisions.",
-      img: "https://cdn.shopify.com/s/files/1/0649/1399/8024/files/Gemini_Generated_Image_exeodbexeodbexeo.webp?v=1719844961", // Replace with the path to your image
-      h3: "Bonus Tip!",
-      p3: "Don't be afraid to ask questions! Your agent and lender are there to support you throughout the process.",
+      h1: "Conquering the Maze: A Comprehensive Guide to Mortgage Pre-Approval",
+      p1: "So you've set your sights on homeownership – congratulations! It's an exhilarating time filled with dreams of housewarming parties and backyard barbecues. But amidst the excitement, the mortgage process can feel like a labyrinth of confusing terms and intricate steps. Fear not, future homeowner! This guide will be your compass, focusing on a crucial aspect –  mortgage pre-approval.",
+      h2: "What is Pre-Approval and Why is it Crucial?",
+      p2: "  Imagine walking into a crowded auction without knowing your spending limit. That's essentially what house hunting can be like without pre-approval. Pre-approval is the formal process where a lender assesses your financial health and determines the maximum loan amount you qualify for. It's like getting a green light from the financial world, saying, Yes, you can afford a home up to this value!",
+      img: "https://cdn.shopify.com/s/files/1/0649/1399/8024/files/kenny-eliason-mGZX2MOPR-s-unsplash.webp?v=1719930504", // Replace with the path to your image
+      h3: "The Bottom Line: Pre-Approval – Your Ticket to Homeownership Success",
+      p3: "By getting pre-approved, you're taking control of your homebuying journey. It empowers you to make informed decisions, present strong offers, and navigate the process with confidence. So, equip yourself with this valuable tool, and watch your dream of homeownership turn into a beautiful reality.",
     },
     {
       id: 2,
-      h1: "Sprucing Up Your Curb Appeal for a Quick Sale",
-      p1: "Thinking of selling your home? Here are some easy upgrades to enhance your curb appeal and potentially fetch a higher selling price.",
-      h2: "Simple Hacks to Boost Curb Appeal",
-      p2: "  * Landscaping: A neat yard with fresh mulch and colorful flowers creates a positive first impression. \n   * Power Washing: A quick power wash can remove dirt and grime, making your exterior sparkle. \n   * Minor Repairs: Fix any leaky faucets, loose doorknobs, or chipped paint to show buyers you've maintained the property.",
-      img: "https://cdn.shopify.com/s/files/1/0649/1399/8024/files/Gemini_Generated_Image_28okwf28okwf28ok.webp?v=1719844961", // Replace with the path to your image
-      h3: "Pro Tip for Sellers",
-      p3: "Stage your home for showings! Declutter, arrange furniture strategically, and add inviting touches to create a move-in-ready feel.",
+      h1: "Decoding the Mortgage Maze: Interest Rates, Points, and Finding the Best Deal",
+      p1: "Congratulations on taking the first step towards homeownership! Now that you've conquered the pre-approval stage, it's time to delve into the world of mortgage rates and terms. This can feel like a complex puzzle, but fret not –  this guide will equip you to decipher the jargon and find the best mortgage deal for your needs.",
+      h2: "Interest Rates: The Engine Driving Your Mortgage Costs",
+      p2: " The interest rate is essentially the cost of borrowing money. It's a percentage of the loan amount that you'll pay over the life of the mortgage, significantly impacting your monthly payments.  Understanding different types of interest rates is crucial Points are upfront fees you can pay to the lender in exchange for a lower interest rate.  Think of it like a discount – by paying a bit more upfront, you secure a lower interest rate, potentially saving thousands over the loan term.  The decision to buy points depends on your financial situation and future plans. If you plan to stay in the home for a long time, points can be a wise investment.",
+      img: "https://cdn.shopify.com/s/files/1/0649/1399/8024/files/naomi-hebert-MP0bgaS_d1c-unsplash.webp?v=1719930550", // Replace with the path to your image
+      h3: "Knowledge is Power: Owning Your Mortgage Journey",
+      p3: "By understanding interest rates, points, and the various factors at play, you're empowered to make informed decisions. Remember, the best mortgage isn't just about the lowest rate; it's about finding the terms that align with your financial goals and long-term plans. So, take your time, research thoroughly, and don't hesitate to ask questions. With this knowledge, you'll be well on your way to securing the perfect mortgage and achieving your dream of homeownership.",
     },
     {
       id: 3,
-      h1: "The Investment Potential of Rental Properties",
-      p1: "Considering becoming a landlord? This blog explores the potential benefits and considerations of rental properties.",
-      h2: "Owning Rental Properties: Pros and Cons",
-      p2: "  * Passive Income: Rents can provide a steady stream of income, even while you're not actively working. \n   * Long-Term Appreciation: Owning property can be a hedge against inflation, potentially appreciating in value over time.",
-      img: "https://cdn.shopify.com/s/files/1/0649/1399/8024/files/Gemini_Generated_Image_exeodcexeodcexeo.webp?v=1719844961", // Replace with the path to your image
-      h3: "Important Consideration for Landlords",
-      p3: "Being a landlord requires effort, including finding tenants, handling repairs, and collecting rent. Conduct thorough background checks on potential tenants to minimize risks.",
+      h1: "Homeownership Hustle: Unveiling the Down Payment Mystery",
+      p1: "So you've aced the pre-approval stage and navigated the maze of mortgage rates and terms. Now you're facing a new challenge – the down payment. This seemingly insurmountable hurdle can leave many aspiring homeowners feeling discouraged. But fear not, future house flipper (or just someone who wants a home)! This guide will shed light on the down payment mystery and equip you with strategies to reach your financial summit.",
+      h2: "Demystifying the Down Payment: Why is it Important?",
+      p2: "The down payment is a portion of the home's purchase price that you pay upfront.  While lenders typically require a minimum down payment (usually around 20%), putting down a larger amount offers several advantages Lower Loan Amount: A bigger down payment translates to a smaller loan amount. This not only reduces your overall borrowing but also lowers your monthly mortgage payments.",
+      img: "https://cdn.shopify.com/s/files/1/0649/1399/8024/files/kara-eads-L7EwHkq1B2s-unsplash.jpg?v=1719931109", // Replace with the path to your image
+      h3: "Creative Approaches to Down Payment Savings",
+      p3: "Set a specific savings goal and challenge yourself to contribute a certain amount each week or month. This gamifies the process and keeps you motivated. Consider downsizing your living situation or cutting back on non-essential expenses to free up additional funds for your down payment. Remember, the journey to homeownership is a marathon, not a sprint.  By employing these strategies and remaining disciplined with your finances, you can conquer the down payment challenge and unlock the door to your dream home.",
     },
   ];
   const id = Number(params.id);

@@ -217,7 +217,6 @@ const page = () => {
               width={600}
               height={600}
               alt="hero"
-
               className="object-cover object-center rounded-lg h-[22rem] transition duration-500 group-hover:scale-105 w-full"
               src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/p4.webp?v=1719861902"
             />
@@ -327,9 +326,12 @@ const page = () => {
                     IconicProject of Sialkot City
                   </p>
 
-                  <button className="font-semibold text-[#A57F4D]">
+                  <Link
+                    href="/sialkot"
+                    className="font-semibold text-[#A57F4D]"
+                  >
                     See details
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
