@@ -42,13 +42,12 @@ const StatsSection: React.FC = () => {
             />
 
             <h6 className="font-semibold sm:text-lg text-sm mt-2">
-              Near To Subway
+              Successful Projects
             </h6>
             <div className="flex items-end gap-1 mt-2">
               <span className="font-semibold sm:font-extrabold  text-[50px] leading-none">
-                <CountUp enableScrollSpy={true} duration={2} end={28} />
-              </span>{" "}
-              <h6 className="font-semibold">min</h6>
+                <CountUp enableScrollSpy={true} duration={3} end={85} />
+              </span>
             </div>
           </div>
           {/* 2 */}
@@ -65,11 +64,11 @@ const StatsSection: React.FC = () => {
               src={"https://themezinho.net/hompark/images/icon-benefits02.png"}
             />
             <h6 className="font-semibold sm:text-lg text-sm mt-2 ">
-              Near To Subway
+              Properties Sold
             </h6>
             <div className="flex items-end gap-1 mt-2">
               <span className="font-semibold sm:font-extrabold text-[50px] leading-none">
-                <CountUp enableScrollSpy={true} duration={2} end={32} />
+                <CountUp enableScrollSpy={true} duration={3} end={150} />
               </span>{" "}
               <h6 className="font-semibold">+</h6>
             </div>
@@ -88,13 +87,12 @@ const StatsSection: React.FC = () => {
               src={"	https://themezinho.net/hompark/images/icon-benefits03.png"}
             />
             <h6 className="font-semibold sm:text-lg text-sm mt-2">
-              Spaces in Pozniaky
+              Years of Experience
             </h6>
             <div className="flex items-end gap-1 mt-2">
               <span className="sm:font-extrabold font-semibold text-[50px] leading-none">
-                <CountUp enableScrollSpy={true} duration={2} end={13} />
-              </span>{" "}
-              <h6 className="font-semibold">%</h6>
+                <CountUp enableScrollSpy={true} duration={3} end={20} />
+              </span>
             </div>
           </div>
           {/* 4 */}
@@ -111,14 +109,12 @@ const StatsSection: React.FC = () => {
               src={"https://themezinho.net/hompark/images/icon-benefits04.png"}
             />
             <h6 className="font-semibold sm:text-lg text-sm mt-2">
-              Spaces in Pozniaky
+              Awards Won
             </h6>
             <div className="flex items-end gap-1 mt-2">
               <span className="sm:font-extrabold font-semibold text-[50px] leading-none">
-                {" "}
-                <CountUp enableScrollSpy={true} duration={2} end={3} />
-              </span>{" "}
-              <h6 className="font-semibold">years</h6>
+                <CountUp enableScrollSpy={true} duration={3} end={25} />
+              </span>
             </div>
           </div>
           {/* 5 */}
@@ -135,13 +131,13 @@ const StatsSection: React.FC = () => {
               src={"https://themezinho.net/hompark/images/icon-benefits05.png"}
             />
             <h6 className="font-semibold sm:text-lg text-sm mt-2">
-              Spaces in Pozniaky
+              Satisfied Clients
             </h6>
             <div className="flex items-end gap-1 mt-2">
               <span className="sm:font-extrabold font-semibold text-[50px] leading-none">
-                <CountUp enableScrollSpy={true} duration={2} end={79} />
+                <CountUp enableScrollSpy={true} duration={2} end={109} />
               </span>{" "}
-              <h6 className="font-semibold">m</h6>
+              <h6 className="font-semibold">+</h6>
             </div>
           </div>
         </div>
