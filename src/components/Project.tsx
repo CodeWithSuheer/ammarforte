@@ -5,9 +5,20 @@ import Link from "next/link";
 const Project = () => {
   return (
     <>
+      {/* HEADING SECTION */}
+      <section className="text-center w-[100%] px-4 lg:px-0 pt-10">
+        <span className="block text-2xl font-extrabold opacity-40 mb-1">
+          04
+        </span>
+        <h4 className="playfair block text-4xl font-semibold mb-1">
+          Our
+          <span className="text-[#9f8054]"> Projects</span>
+        </h4>
+      </section>
+
       {/* FIRST PROJECT */}
       <section className="project-1 w-full px-0 xl:px-0">
-        <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 lg:pt-20 md:flex-row flex-col items-center">
+        <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 lg:pt-14 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
             <Image
               width={600}
@@ -52,6 +63,10 @@ const Project = () => {
         </div>
       </section>
 
+      <section className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto px-4">
+        <p className="h-px w-full bg-gray-700 opacity-50"></p>
+      </section>
+
       {/* SECOND PROJECT */}
       <section className="project-2 w-full px-0 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
@@ -89,6 +104,10 @@ const Project = () => {
             />
           </div>
         </div>
+      </section>
+
+      <section className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto px-4">
+        <p className="h-px w-full bg-gray-700 opacity-50"></p>
       </section>
 
       {/* THIRD PROJECT */}
