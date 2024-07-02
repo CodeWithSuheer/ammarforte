@@ -16,7 +16,7 @@ const Gallery = () => {
           <p className="font-semibold text-xl">Journey Through Our Creations</p>
         </div>
 
-        <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+        <div className="max-w-[85rem] px-3 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
             <div className="space-y-2">
               <Image

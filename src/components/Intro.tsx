@@ -88,7 +88,7 @@ const Intro = () => {
 
       <section className="py-16">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto">
-          <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5">
+          <div className="flex justify-center items-center flex-wrap gap-x-4 sm:gap-x-6">
             {data.map((data) => (
               <div key={data.id} className="relative mx-auto h-[8rem] w-[8rem]">
                 <Image
