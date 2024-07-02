@@ -37,7 +37,7 @@ const StatsSection: React.FC = () => {
               width={65}
               height={65}
               alt="Icon"
-              className="w-14 h-14 sm:w-20 sm:h-20"
+              className="w-14 h-14 sm:w-16 sm:h-16 object-contain"
               src={"https://themezinho.net/hompark/images/icon-benefits01.png"}
             />
 
@@ -60,7 +60,7 @@ const StatsSection: React.FC = () => {
               width={65}
               height={65}
               alt="Icon"
-              className="w-14 h-14 sm:w-20 sm:h-20"
+              className="w-14 h-14 sm:w-16 sm:h-16 object-contain"
               src={"https://themezinho.net/hompark/images/icon-benefits02.png"}
             />
             <h6 className="font-semibold sm:text-lg text-sm mt-2 ">
@@ -83,7 +83,7 @@ const StatsSection: React.FC = () => {
               width={65}
               height={65}
               alt="Icon"
-              className="w-14 h-14 sm:w-20 sm:h-20"
+              className="w-14 h-14 sm:w-16 sm:h-16 object-contain"
               src={"	https://themezinho.net/hompark/images/icon-benefits03.png"}
             />
             <h6 className="font-semibold sm:text-lg text-sm mt-2">
@@ -105,7 +105,7 @@ const StatsSection: React.FC = () => {
               width={65}
               height={65}
               alt="Icon"
-              className="w-14 h-14 sm:w-20 sm:h-20"
+              className="w-14 h-14 sm:w-16 sm:h-16 object-contain"
               src={"https://themezinho.net/hompark/images/icon-benefits04.png"}
             />
             <h6 className="font-semibold sm:text-lg text-sm mt-2">
@@ -127,7 +127,7 @@ const StatsSection: React.FC = () => {
               width={65}
               height={65}
               alt="Icon"
-              className="w-14 h-14 sm:w-20 sm:h-20"
+              className="w-14 h-14 sm:w-16 sm:h-16 object-contain"
               src={"https://themezinho.net/hompark/images/icon-benefits05.png"}
             />
             <h6 className="font-semibold sm:text-lg text-sm mt-2">
