@@ -42,7 +42,7 @@ const Project = () => {
                   </p>
 
                   <p className="font-normal text-md max-w-lg text-[#252525] mb-4">
-                    Brand Village Gujranwala is the only the IconicProject of
+                    Brand Village Gujranwala is the only the Iconic Project of
                     Gujranwala City with facilities like high speed elevators,
                     secure and spacious car parking space, clean environment,
                     Wi-Fi, banking services & ATMs, foreign exchange, Prayer
