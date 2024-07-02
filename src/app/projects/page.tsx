@@ -57,7 +57,7 @@ const page = () => {
             <div className="col-lg-6 wow fadeInUp">
               <div className="content-box">
                 <div className="text-start w-[100%]">
-                  <h4 className="playfair backdrop:block font-semibold text-3xl sm:text-4xl mb-4">
+                  <h4 className="playfair backdrop:block font-medium sm:font-semibold text-3xl sm:text-4xl mb-4">
                     <span className="playfair text-[#9f8054]">
                       Brands Village Gujranwala
                     </span>
@@ -94,7 +94,7 @@ const page = () => {
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex px-5 flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <div className="text-start w-[100%]">
-              <h4 className="playfair backdrop:block font-semibold text-3xl sm:text-4xl mb-4">
+              <h4 className="playfair backdrop:block font-medium sm:font-semibold text-3xl sm:text-4xl mb-4">
                 <span className="playfair text-[#9f8054]">
                   Brands Village Quetta
                 </span>
@@ -148,7 +148,7 @@ const page = () => {
             <div className="col-lg-6 wow fadeInUp">
               <div className="content-box">
                 <div className="text-start w-[100%]">
-                  <h4 className="playfair backdrop:block font-semibold text-3xl sm:text-4xl mb-4">
+                  <h4 className="playfair backdrop:block font-medium sm:font-semibold text-3xl sm:text-4xl mb-4">
                     <span className="playfair text-[#9f8054]">
                       Clouds Casa Murree
                     </span>
@@ -184,7 +184,7 @@ const page = () => {
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex px-5 flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <div className="text-start w-[100%]">
-              <h4 className="playfair backdrop:block font-semibold text-3xl sm:text-4xl mb-4">
+              <h4 className="playfair backdrop:block font-medium sm:font-semibold text-3xl sm:text-4xl mb-4">
                 <span className="playfair text-[#9f8054]">
                   Bahria Town Karachi
                 </span>
@@ -238,7 +238,7 @@ const page = () => {
             <div className="col-lg-6 wow fadeInUp">
               <div className="content-box">
                 <div className="text-start w-[100%]">
-                  <h4 className="playfair backdrop:block font-semibold text-3xl sm:text-4xl mb-4">
+                  <h4 className="playfair backdrop:block font-medium sm:font-semibold text-3xl sm:text-4xl mb-4">
                     <span className="playfair text-[#9f8054]">
                       Al Noor Orchard
                     </span>
@@ -275,7 +275,7 @@ const page = () => {
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex px-5 flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <div className="text-start w-[100%]">
-              <h4 className="playfair backdrop:block font-semibold text-3xl sm:text-4xl mb-4">
+              <h4 className="playfair backdrop:block font-medium sm:font-semibold text-3xl sm:text-4xl mb-4">
                 <span className="playfair text-[#9f8054]">
                   Lahore Smart City
                 </span>
@@ -330,7 +330,7 @@ const page = () => {
             <div className="col-lg-6 wow fadeInUp">
               <div className="content-box">
                 <div className="text-start w-[100%]">
-                  <h4 className="playfair backdrop:block font-semibold text-3xl sm:text-4xl mb-4">
+                  <h4 className="playfair backdrop:block font-medium sm:font-semibold text-3xl sm:text-4xl mb-4">
                     <span className="playfair text-[#9f8054]">
                       Brands Village Sialkot
                     </span>
@@ -366,7 +366,7 @@ const page = () => {
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex px-5 flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <div className="text-start w-[100%]">
-              <h4 className="playfair backdrop:block font-semibold text-3xl sm:text-4xl mb-4">
+              <h4 className="playfair backdrop:block font-medium sm:font-semibold text-3xl sm:text-4xl mb-4">
                 <span className="playfair text-[#9f8054]">
                   DHA (Lahore | Islamabad | Karachi)
                 </span>
@@ -419,7 +419,7 @@ const page = () => {
             <div className="col-lg-6 wow fadeInUp">
               <div className="content-box">
                 <div className="text-start w-[100%]">
-                  <h4 className="playfair backdrop:block font-semibold text-3xl sm:text-4xl mb-4">
+                  <h4 className="playfair backdrop:block font-medium sm:font-semibold text-3xl sm:text-4xl mb-4">
                     <span className="playfair text-[#9f8054]">
                       Metropole Mall Saddar Rawalpindi
                     </span>

@@ -151,6 +151,14 @@ const Project = () => {
             </div>
           </div>
         </div>
+        <button className="w-full mt-3">
+          <Link
+            href="/projects"
+            className="px-10 py-4 uppercase text-[#A57F4D] underline underline-offset-8 text-xl"
+          >
+            View All Projects
+          </Link>
+        </button>
       </section>
     </>
   );
