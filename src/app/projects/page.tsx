@@ -42,7 +42,7 @@ const page = () => {
       </section>
 
       {/* FIRST PROJECT --> Brands Village Gujranwala */}
-      <section className="project-1 w-full px-2 xl:px-0">
+      <section className="project-1 w-full px-0 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 lg:pt-20 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
             <Image
@@ -57,16 +57,16 @@ const page = () => {
             <div className="col-lg-6 wow fadeInUp">
               <div className="content-box">
                 <div className="text-start w-[100%]">
-                  <h4 className="playfair backdrop:block text-4xl mb-4">
+                  <h4 className="playfair backdrop:block font-medium sm:font-semibold text-3xl sm:text-4xl mb-4">
                     <span className="playfair text-[#9f8054]">
                       Brands Village Gujranwala
                     </span>
                   </h4>
-                  <p className="font-semibold text-xl text-[#252525] mb-5">
+                  <p className="font-semibold text-md sm:text-xl text-[#434343] mb-4">
                     Living spaces for creative peoples
                   </p>
 
-                  <p className="font-normal text-md max-w-lg text-[#252525] mb-4">
+                  <p className="font-normal text-md max-w-lg text-[#252525] mb-8">
                     Brand Village Gujranwala is the only the IconicProject of
                     Gujranwala City with facilities like high speed elevators,
                     secure and spacious car parking space, clean environment,
@@ -75,11 +75,8 @@ const page = () => {
                     alarm and fighting system.
                   </p>
 
-                  <Link
-                    href="/gujranwala"
-                    className="font-semibold text-[#A57F4D]"
-                  >
-                    See details
+                  <Link href="/gujranwala" className="mt-2 hover_button card">
+                    See Details
                   </Link>
                 </div>
               </div>
@@ -88,21 +85,25 @@ const page = () => {
         </div>
       </section>
 
+      <section className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto px-4">
+        <p className="h-px w-full bg-gray-700 opacity-50"></p>
+      </section>
+
       {/* SECOND PROJECT --> Brands Village Quetta */}
-      <section className="project-2 w-full px-2 xl:px-0">
+      <section className="project-2 w-full px-0 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex px-5 flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <div className="text-start w-[100%]">
-              <h4 className="playfair backdrop:block text-4xl mb-4">
+              <h4 className="playfair backdrop:block font-medium sm:font-semibold text-3xl sm:text-4xl mb-4">
                 <span className="playfair text-[#9f8054]">
                   Brands Village Quetta
                 </span>
               </h4>
-              <p className="font-semibold text-xl text-[#252525] mb-5">
+              <p className="font-semibold text-md sm:text-xl text-[#434343] mb-4">
                 Living spaces for creative peoples
               </p>
 
-              <p className="font-normal text-md max-w-lg text-[#252525] mb-4">
+              <p className="font-normal text-md max-w-lg text-[#252525] mb-8">
                 Brands Village is not specified to just a single location, there
                 will be multiple brands villages launching all across Pakistan.
                 Brands Village undoubtedly offers the ultimate entertainment and
@@ -110,8 +111,8 @@ const page = () => {
                 walk through more than 50 international & local brands.
               </p>
 
-              <Link href="/quetta" className="font-semibold text-[#A57F4D]">
-                See details
+              <Link href="/quetta" className="mt-2 hover_button card">
+                See Details
               </Link>
             </div>
           </div>
@@ -127,8 +128,12 @@ const page = () => {
         </div>
       </section>
 
+      <section className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto px-4">
+        <p className="h-px w-full bg-gray-700 opacity-50"></p>
+      </section>
+
       {/* THIRD PROJECT --> Clouds Casa Murree */}
-      <section className="project-3 w-full px-2 xl:px-0">
+      <section className="project-3 w-full px-0 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
             <Image
@@ -143,16 +148,16 @@ const page = () => {
             <div className="col-lg-6 wow fadeInUp">
               <div className="content-box">
                 <div className="text-start w-[100%]">
-                  <h4 className="playfair backdrop:block text-4xl mb-4">
+                  <h4 className="playfair backdrop:block font-medium sm:font-semibold text-3xl sm:text-4xl mb-4">
                     <span className="playfair text-[#9f8054]">
                       Clouds Casa Murree
                     </span>
                   </h4>
-                  <p className="font-semibold text-xl text-[#252525] mb-5">
+                  <p className="font-semibold text-md sm:text-xl text-[#434343] mb-4">
                     Living spaces for creative peoples
                   </p>
 
-                  <p className="font-normal text-md max-w-lg text-[#252525] mb-4">
+                  <p className="font-normal text-md max-w-lg text-[#252525] mb-8">
                     A Land Developer group operating countrywide since last 15
                     years through its subsidiary SECP registered companies of
                     Project planning, Construction, Marketing and Sales,
@@ -160,9 +165,9 @@ const page = () => {
                     Sustainable Development.
                   </p>
 
-                  <button className="font-semibold text-[#A57F4D]">
-                    See details
-                  </button>
+                  <Link href="/contact" className="mt-2 hover_button card">
+                    Contact
+                  </Link>
                 </div>
               </div>
             </div>
@@ -170,31 +175,35 @@ const page = () => {
         </div>
       </section>
 
+      <section className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto px-4">
+        <p className="h-px w-full bg-gray-700 opacity-50"></p>
+      </section>
+
       {/* FORTH PROJECT --> Bahria Town Karachi */}
-      <section className="project-4 w-full px-2 xl:px-0">
+      <section className="project-4 w-full px-0 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex px-5 flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <div className="text-start w-[100%]">
-              <h4 className="playfair backdrop:block text-4xl mb-4">
+              <h4 className="playfair backdrop:block font-medium sm:font-semibold text-3xl sm:text-4xl mb-4">
                 <span className="playfair text-[#9f8054]">
                   Bahria Town Karachi
                 </span>
               </h4>
-              <p className="font-semibold text-xl text-[#252525] mb-5">
+              <p className="font-semibold text-md sm:text-xl text-[#434343] mb-4">
                 Living spaces for creative peoples
               </p>
 
-              <p className="font-normal text-md max-w-lg text-[#252525] mb-4">
-                “Rome wasn’t built in a day” can only be believed by someone who
-                hasn’t witnessed the development speed of Bahria Town Karachi
-                project. The sheer scale, logistics and quality of this
-                world-class project is beyond anything experienced by Pakistan
-                before.
+              <p className="font-normal text-md max-w-lg text-[#252525] mb-8">
+                “Rome wasn&apos;t built in a day” can only be believed by
+                someone who hasn&apos;t witnessed the development speed of
+                Bahria Town Karachi project. The sheer scale, logistics and
+                quality of this world-class project is beyond anything
+                experienced by Pakistan before.
               </p>
 
-              <button className="font-semibold text-[#A57F4D]">
-                See details
-              </button>
+              <Link href="/contact" className="mt-2 hover_button card">
+                Contact
+              </Link>
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 group overflow-hidden rounded-lg">
@@ -209,15 +218,19 @@ const page = () => {
         </div>
       </section>
 
+      <section className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto px-4">
+        <p className="h-px w-full bg-gray-700 opacity-50"></p>
+      </section>
+
       {/* FIFTH PROJECT --> Al Noor Orchard */}
-      <section className="project-5 w-full px-2 xl:px-0">
+      <section className="project-5 w-full px-0 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
             <Image
               width={600}
               height={600}
               alt="hero"
-              className="object-cover object-center rounded-lg h-[22rem] transition duration-500 group-hover:scale-105 w-full"
+              className="object-cover object-center rounded-lg h-[14rem] sm:h-[22rem] transition duration-500 group-hover:scale-105 w-full"
               src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/p4.webp?v=1719861902"
             />
           </div>
@@ -225,16 +238,16 @@ const page = () => {
             <div className="col-lg-6 wow fadeInUp">
               <div className="content-box">
                 <div className="text-start w-[100%]">
-                  <h4 className="playfair backdrop:block text-4xl mb-4">
+                  <h4 className="playfair backdrop:block font-medium sm:font-semibold text-3xl sm:text-4xl mb-4">
                     <span className="playfair text-[#9f8054]">
                       Al Noor Orchard
                     </span>
                   </h4>
-                  <p className="font-semibold text-xl text-[#252525] mb-5">
+                  <p className="font-semibold text-md sm:text-xl text-[#434343] mb-4">
                     Living spaces for creative peoples
                   </p>
 
-                  <p className="font-normal text-md max-w-lg text-[#252525] mb-4">
+                  <p className="font-normal text-md max-w-lg text-[#252525] mb-8">
                     Al-Noor Orchard, the largest LDA-approved project of Lahore
                     West, stands out for its architectural excellence and
                     attention to detail. This housing scheme is poised to become
@@ -243,9 +256,9 @@ const page = () => {
                     essence of modern living
                   </p>
 
-                  <button className="font-semibold text-[#A57F4D]">
-                    See details
-                  </button>
+                  <Link href="/contact" className="mt-2 hover_button card">
+                    Contact
+                  </Link>
                 </div>
               </div>
             </div>
@@ -253,21 +266,25 @@ const page = () => {
         </div>
       </section>
 
+      <section className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto px-4">
+        <p className="h-px w-full bg-gray-700 opacity-50"></p>
+      </section>
+
       {/* Six PROJECT --> Lahore Smart City */}
-      <section className="project-4 w-full px-2 xl:px-0">
+      <section className="project-4 w-full px-0 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex px-5 flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <div className="text-start w-[100%]">
-              <h4 className="playfair backdrop:block text-4xl mb-4">
+              <h4 className="playfair backdrop:block font-medium sm:font-semibold text-3xl sm:text-4xl mb-4">
                 <span className="playfair text-[#9f8054]">
                   Lahore Smart City
                 </span>
               </h4>
-              <p className="font-semibold text-xl text-[#252525] mb-5">
+              <p className="font-semibold text-md sm:text-xl text-[#434343] mb-4">
                 Living spaces for creative peoples
               </p>
 
-              <p className="font-normal text-md max-w-lg text-[#252525] mb-4">
+              <p className="font-normal text-md max-w-lg text-[#252525] mb-8">
                 Lahore Smart City takes you on a voyage to experience the
                 gigantic wonders of nature and man. The splendour of
                 architecture, the grandeur of metropolitan living, smart
@@ -276,9 +293,9 @@ const page = () => {
                 going to be the second smart city of Pakistan.
               </p>
 
-              <button className="font-semibold text-[#A57F4D]">
-                See details
-              </button>
+              <Link href="/contact" className="mt-2 hover_button card">
+                Contact
+              </Link>
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 group overflow-hidden rounded-lg">
@@ -293,8 +310,12 @@ const page = () => {
         </div>
       </section>
 
+      <section className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto px-4">
+        <p className="h-px w-full bg-gray-700 opacity-50"></p>
+      </section>
+
       {/* Seven PROJECT --> Brands Village Sialkot */}
-      <section className="project-5 w-full px-2 xl:px-0">
+      <section className="project-5 w-full px-0 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
             <Image
@@ -309,23 +330,22 @@ const page = () => {
             <div className="col-lg-6 wow fadeInUp">
               <div className="content-box">
                 <div className="text-start w-[100%]">
-                  <h4 className="playfair backdrop:block text-4xl mb-4">
+                  <h4 className="playfair backdrop:block font-medium sm:font-semibold text-3xl sm:text-4xl mb-4">
                     <span className="playfair text-[#9f8054]">
                       Brands Village Sialkot
                     </span>
                   </h4>
-                  <p className="font-semibold text-xl text-[#252525] mb-5">
+                  <p className="font-semibold text-md sm:text-xl text-[#434343] mb-4">
                     Living spaces for creative peoples
                   </p>
 
-                  <p className="font-normal text-md max-w-lg text-[#252525] mb-4">
+                  <p className="font-normal text-md max-w-lg text-[#252525] mb-8">
                     The most project of Sialkot, located at Khawaja Safdar Road
                     on the central point of Cantt and City. It has
                     revolutionized the shopping experience of people of Sialkot
                     and adjoining areas.Brand Village Sialkot is the only the
                     IconicProject of Sialkot City
                   </p>
-
                   <Link
                     href="/sialkot"
                     className="font-semibold text-[#A57F4D]"
@@ -339,21 +359,25 @@ const page = () => {
         </div>
       </section>
 
+      <section className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto px-4">
+        <p className="h-px w-full bg-gray-700 opacity-50"></p>
+      </section>
+
       {/* Eight PROJECT --> DHA (Lahore | Islamabad | Karachi) */}
-      <section className="project-4 w-full px-2 xl:px-0">
+      <section className="project-4 w-full px-0 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex px-5 flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <div className="text-start w-[100%]">
-              <h4 className="playfair backdrop:block text-4xl mb-4">
+              <h4 className="playfair backdrop:block font-medium sm:font-semibold text-3xl sm:text-4xl mb-4">
                 <span className="playfair text-[#9f8054]">
                   DHA (Lahore | Islamabad | Karachi)
                 </span>
               </h4>
-              <p className="font-semibold text-xl text-[#252525] mb-5">
+              <p className="font-semibold text-md sm:text-xl text-[#434343] mb-4">
                 Living spaces for creative peoples
               </p>
 
-              <p className="font-normal text-md max-w-lg text-[#252525] mb-4">
+              <p className="font-normal text-md max-w-lg text-[#252525] mb-8">
                 Defence Housing Authority Lahore is “Nationally recognized
                 corporate” organization that has endeavored to provide, to the
                 people of Pakistan, an opportunity to live the innovative models
@@ -362,9 +386,9 @@ const page = () => {
                 grandeur of our cities and communities.
               </p>
 
-              <button className="font-semibold text-[#A57F4D]">
-                See details
-              </button>
+              <Link href="/contact" className="mt-2 hover_button card">
+                Contact
+              </Link>
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 group overflow-hidden rounded-lg">
@@ -379,13 +403,17 @@ const page = () => {
         </div>
       </section>
 
+      <section className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto px-4">
+        <p className="h-px w-full bg-gray-700 opacity-50"></p>
+      </section>
+
       {/* Nine PROJECT */}
-      <section className="project-5 w-full px-2 xl:px-0">
+      <section className="project-5 w-full px-0 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
             <img
               alt="hero"
-              className="object-cover object-center rounded-lg h-[22rem] transition duration-500 group-hover:scale-105 w-full"
+              className="object-cover object-center rounded-lg h-[14rem] sm:h-[22rem] transition duration-500 group-hover:scale-105 w-full"
               src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/p3.webp?v=1719927629"
             />
           </div>
@@ -393,16 +421,16 @@ const page = () => {
             <div className="col-lg-6 wow fadeInUp">
               <div className="content-box">
                 <div className="text-start w-[100%]">
-                  <h4 className="playfair backdrop:block text-4xl mb-4">
+                  <h4 className="playfair backdrop:block font-medium sm:font-semibold text-3xl sm:text-4xl mb-4">
                     <span className="playfair text-[#9f8054]">
                       Metropole Mall Saddar Rawalpindi
                     </span>
                   </h4>
-                  <p className="font-semibold text-xl text-[#252525] mb-5">
+                  <p className="font-semibold text-md sm:text-xl text-[#434343] mb-4">
                     Living spaces for creative peoples
                   </p>
 
-                  <p className="font-normal text-md max-w-lg text-[#252525] mb-4">
+                  <p className="font-normal text-md max-w-lg text-[#252525] mb-8">
                     Metropole Mall: Where Shopping Meets Luxury. Metropole Mall,
                     within the sprawling Metropole Arcade complex, is a shopping
                     haven that sets a new standard for retail therapy in
@@ -410,9 +438,9 @@ const page = () => {
                     and unforgettable shopping experience, blending
                   </p>
 
-                  <button className="font-semibold text-[#A57F4D]">
-                    See details
-                  </button>
+                  <Link href="/contact" className="mt-2 hover_button card">
+                    Contact
+                  </Link>
                 </div>
               </div>
             </div>

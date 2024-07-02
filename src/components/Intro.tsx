@@ -34,7 +34,7 @@ const Intro = () => {
   return (
     <>
       <section className="text-gray-600">
-        <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-0 md:flex-row flex-col items-center min-h-[80vh]">
+        <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center min-h-[80vh]">
           <div className="relative lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <Image
               alt="hero"
@@ -86,9 +86,9 @@ const Intro = () => {
         </div>
       </section>
 
-      <section className="py-16">
+      {/* <section className="py-16">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto">
-          <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5">
+          <div className="flex justify-center items-center flex-wrap gap-x-4 sm:gap-x-6">
             {data.map((data) => (
               <div key={data.id} className="relative mx-auto h-[8rem] w-[8rem]">
                 <Image
@@ -101,7 +101,7 @@ const Intro = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };

@@ -16,7 +16,7 @@ const Gallery = () => {
           <p className="font-semibold text-xl">Journey Through Our Creations</p>
         </div>
 
-        <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+        <div className="max-w-[85rem] px-3 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
             <div className="space-y-2">
               <Image
@@ -30,7 +30,7 @@ const Gallery = () => {
                 width={600}
                 height={600}
                 alt="Image Description"
-                className="h-[10rem] w-[10rem] sm:h-[42rem] object-cover sm:w-[18.6rem] rounded"
+                className="h-[11rem] w-[11rem] sm:h-[42rem] object-cover sm:w-[18.6rem] rounded"
                 src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/6.webp?v=1719860425"
               />
             </div>
@@ -47,6 +47,7 @@ const Gallery = () => {
                 height={600}
                 alt="Image Description"
                 className="h-[10rem] w-[10rem] sm:h-[33rem] object-cover sm:w-[20rem] rounded"
+
                 src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/7.webp?v=1719860425"
               />
             </div>
@@ -55,21 +56,21 @@ const Gallery = () => {
                 width={600}
                 height={600}
                 alt="Image Description"
-                className="h-[10rem] w-[10rem] sm:h-[12rem] object-cover sm:w-[20rem] rounded"
+                className="h-[11rem] w-[11rem] sm:h-[12rem] object-cover sm:w-[20rem] rounded"
                 src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/office3.webp?v=1719842515"
               />
               <Image
                 width={600}
                 height={600}
                 alt="Image Description"
-                className="h-[10rem] w-[10rem] sm:h-[25rem] object-cover sm:w-[20rem] rounded"
+                className="h-[11rem] w-[11rem] sm:h-[25rem] object-cover sm:w-[20rem] rounded"
                 src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/8.webp?v=1719860425"
               />
               <Image
                 width={600}
                 height={600}
                 alt="Image Description"
-                className="h-[10rem] w-[10rem] sm:h-[17.5rem] object-cover sm:w-[20rem] rounded"
+                className="h-[11rem] w-[11rem] sm:h-[17.5rem] object-cover sm:w-[20rem] rounded"
                 src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/office5.webp?v=1719842515"
               />
             </div>
@@ -78,14 +79,14 @@ const Gallery = () => {
                 width={600}
                 height={600}
                 alt="Image Description"
-                className="h-[10rem] w-[10rem] sm:h-[30rem] object-cover sm:w-[20rem] rounded"
+                className="h-[11rem] w-[11rem] sm:h-[30rem] object-cover sm:w-[20rem] rounded"
                 src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/9.webp?v=1719860424"
               />
               <Image
                 width={600}
                 height={600}
                 alt="Image Description"
-                className="h-[10rem] w-[10rem] sm:h-[25rem] object-cover sm:w-[20rem] rounded"
+                className="h-[11rem] w-[11rem] sm:h-[25rem] object-cover sm:w-[20rem] rounded"
                 src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/office4.webp?v=1719842515"
               />
             </div>
