@@ -3,7 +3,8 @@ import { FaPhone } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
-import { FaTiktok } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -15,7 +16,9 @@ const Footer = () => {
             {/* LOGO & HEADING */}
             <div className="sm:col-span-2">
               <h1 className="max-w-lg flex items-center text-xl font-semibold tracking-tight text-white xl:text-2xl">
-                <img
+                <Image
+                  width={600}
+                  height={600}
                   className="mr-3 w-12"
                   src="https://cdn.shopify.com/s/files/1/0852/5099/8550/files/ammmar.png?v=1719436690"
                   alt="logo"
@@ -100,38 +103,62 @@ const Footer = () => {
 
                 {/* SOCIAL LINKS */}
                 <div className="links pt-2 flex items-center justify-start gap-2.5">
-                  <a href="#" className="">
+                  <a
+                    href="https://www.facebook.com/ammarforte1"
+                    target="_blank"
+                    className=""
+                  >
                     <FaFacebookF className="text-white bg-[#A57F4D] h-7 w-7 p-1.5 rounded-full" />
                   </a>
-                  <a href="#" className="">
+                  <a
+                    href="https://www.instagram.com/ammarforte/?hl=en"
+                    target="_blank"
+                    className=""
+                  >
                     <FaInstagram className="text-white bg-[#A57F4D] h-7 w-7 p-1.5 rounded-full" />
                   </a>
-                  <a href="#" className="">
+                  <a
+                    href="https://www.linkedin.com/company/ammarforte/?originalSubdomain=pk"
+                    target="_blank"
+                    className=""
+                  >
                     <FaLinkedinIn className="text-white bg-[#A57F4D] h-7 w-7 p-1.5 rounded-full" />
                   </a>
-                  <a href="#" className="">
-                    <FaTiktok className="text-white bg-[#A57F4D] h-7 w-7 p-1.5 rounded-full" />
+                  <a
+                    href="https://www.youtube.com/channel/UCDcFBh8I_tyoriNew2QpJYg"
+                    target="_blank"
+                    className=""
+                  >
+                    <FaYoutube className="text-white bg-[#A57F4D] h-7 w-7 p-1.5 rounded-full" />
                   </a>
                 </div>
 
                 {/* PAYMENT METHOLDS */}
                 <div className="paymentMethods pt-2 flex items-center justify-start gap-2">
-                  <img
+                  <Image
+                    width={100}
+                    height={100}
                     className="w-8"
                     src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/Paypal_logo.png?v=1713217299"
                     alt=""
                   />
-                  <img
+                  <Image
+                    width={100}
+                    height={100}
                     className="w-8"
                     src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/MasterCard_Logo_svg.png?v=1713215530"
                     alt=""
                   />
-                  <img
+                  <Image
+                    width={100}
+                    height={100}
                     className="w-8"
                     src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/visa.png?v=1713215529"
                     alt=""
                   />
-                  <img
+                  <Image
+                    width={100}
+                    height={100}
                     className="w-8"
                     src="https://cdn.shopify.com/s/files/1/0704/6378/2946/files/American_Express.png?v=1713215529"
                     alt=""

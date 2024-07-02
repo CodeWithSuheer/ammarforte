@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import { IoMdPhonePortrait } from "react-icons/io";
@@ -29,10 +30,10 @@ const Navbar = () => {
       >
         <div className="flex items-center justify-between py-3 md:py-5 md:block">
           <Link href="/">
-            <img
+            <Image
+              width={100}
+              height={100}
               src="https://cdn.shopify.com/s/files/1/0852/5099/8550/files/ammmar.png?v=1719436690"
-              width={80}
-              height={50}
               alt="Float UI logo"
             />
           </Link>
