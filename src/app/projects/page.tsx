@@ -75,8 +75,11 @@ const page = () => {
                     alarm and fighting system.
                   </p>
 
-                  <Link href="/gujranwala" className="mt-2 hover_button card">
-                    See Details
+                  <Link
+                    href="/gujranwala"
+                    className="font-semibold text-[#A57F4D]"
+                  >
+                    See details
                   </Link>
                 </div>
               </div>
@@ -111,8 +114,8 @@ const page = () => {
                 walk through more than 50 international & local brands.
               </p>
 
-              <Link href="/quetta" className="mt-2 hover_button card">
-                See Details
+              <Link href="/quetta" className="font-semibold text-[#A57F4D]">
+                See details
               </Link>
             </div>
           </div>
@@ -132,16 +135,16 @@ const page = () => {
         <p className="h-px w-full bg-gray-700 opacity-50"></p>
       </section>
 
-      {/* THIRD PROJECT --> Clouds Casa Murree */}
-      <section className="project-3 w-full px-0 xl:px-0">
+      {/* Seven PROJECT --> Brands Village Sialkot */}
+      <section className="project-5 w-full px-0 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
             <Image
               width={600}
               height={600}
               alt="hero"
-              className="object-cover object-center rounded-lg h-[14rem] sm:h-[22rem] transition duration-500 group-hover:scale-105 w-full"
-              src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/cloud_apartments.webp?v=1719844179"
+              className="object-cover object-center rounded-lg  h-[14rem] sm:h-[22rem] transition duration-500 group-hover:scale-105 w-full"
+              src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/s5.webp?v=1719862249"
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex px-5 flex-col md:items-start md:text-left items-center text-center">
@@ -149,24 +152,26 @@ const page = () => {
               <div className="content-box">
                 <div className="text-start w-[100%]">
                   <span className="block text-xl font-semibold opacity-50 mb-1">
-                    Murree
+                    Sialkot
                   </span>
                   <h4 className="playfair backdrop:block font-medium sm:font-semibold text-3xl sm:text-4xl mb-4">
                     <span className="playfair text-[#9f8054]">
-                      Clouds Casa Murree
+                      Brands Village Sialkot
                     </span>
                   </h4>
 
                   <p className="font-normal text-md max-w-lg text-[#252525] mb-8">
-                    A Land Developer group operating countrywide since last 15
-                    years through its subsidiary SECP registered companies of
-                    Project planning, Construction, Marketing and Sales,
-                    adopting best practices of Project Management and
-                    Sustainable Development.
+                    The most project of Sialkot, located at Khawaja Safdar Road
+                    on the central point of Cantt and City. It has
+                    revolutionized the shopping experience of people of Sialkot
+                    and adjoining areas.Brand Village Sialkot is the only the
+                    IconicProject of Sialkot City
                   </p>
-
-                  <Link href="/contact" className="mt-2 hover_button card">
-                    Contact
+                  <Link
+                    href="/sialkot"
+                    className="font-semibold text-[#A57F4D]"
+                  >
+                    See details
                   </Link>
                 </div>
               </div>
@@ -222,8 +227,8 @@ const page = () => {
         <p className="h-px w-full bg-gray-700 opacity-50"></p>
       </section>
 
-      {/* FIFTH PROJECT --> Al Noor Orchard */}
-      <section className="project-5 w-full px-0 xl:px-0">
+      {/* THIRD PROJECT --> Clouds Casa Murree */}
+      <section className="project-3 w-full px-0 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
             <Image
@@ -231,7 +236,7 @@ const page = () => {
               height={600}
               alt="hero"
               className="object-cover object-center rounded-lg h-[14rem] sm:h-[22rem] transition duration-500 group-hover:scale-105 w-full"
-              src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/p4.webp?v=1719861902"
+              src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/cloud_apartments.webp?v=1719844179"
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex px-5 flex-col md:items-start md:text-left items-center text-center">
@@ -239,21 +244,20 @@ const page = () => {
               <div className="content-box">
                 <div className="text-start w-[100%]">
                   <span className="block text-xl font-semibold opacity-50 mb-1">
-                    Lahore
+                    Murree
                   </span>
                   <h4 className="playfair backdrop:block font-medium sm:font-semibold text-3xl sm:text-4xl mb-4">
                     <span className="playfair text-[#9f8054]">
-                      Al Noor Orchard
+                      Clouds Casa Murree
                     </span>
                   </h4>
 
                   <p className="font-normal text-md max-w-lg text-[#252525] mb-8">
-                    Al-Noor Orchard, the largest LDA-approved project of Lahore
-                    West, stands out for its architectural excellence and
-                    attention to detail. This housing scheme is poised to become
-                    a landmark in the area. Masterfully planned and designed by
-                    Al-Jalil Developers, Al-Noor Orchard truly captures the
-                    essence of modern living
+                    A Land Developer group operating countrywide since last 15
+                    years through its subsidiary SECP registered companies of
+                    Project planning, Construction, Marketing and Sales,
+                    adopting best practices of Project Management and
+                    Sustainable Development.
                   </p>
 
                   <Link href="/contact" className="mt-2 hover_button card">
@@ -314,7 +318,7 @@ const page = () => {
         <p className="h-px w-full bg-gray-700 opacity-50"></p>
       </section>
 
-      {/* Seven PROJECT --> Brands Village Sialkot */}
+      {/* FIFTH PROJECT --> Al Noor Orchard */}
       <section className="project-5 w-full px-0 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
@@ -322,8 +326,8 @@ const page = () => {
               width={600}
               height={600}
               alt="hero"
-              className="object-cover object-center rounded-lg  h-[14rem] sm:h-[22rem] transition duration-500 group-hover:scale-105 w-full"
-              src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/s5.webp?v=1719862249"
+              className="object-cover object-center rounded-lg h-[14rem] sm:h-[22rem] transition duration-500 group-hover:scale-105 w-full"
+              src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/p4.webp?v=1719861902"
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex px-5 flex-col md:items-start md:text-left items-center text-center">
@@ -331,26 +335,25 @@ const page = () => {
               <div className="content-box">
                 <div className="text-start w-[100%]">
                   <span className="block text-xl font-semibold opacity-50 mb-1">
-                    Sialkot
+                    Lahore
                   </span>
                   <h4 className="playfair backdrop:block font-medium sm:font-semibold text-3xl sm:text-4xl mb-4">
                     <span className="playfair text-[#9f8054]">
-                      Brands Village Sialkot
+                      Al Noor Orchard
                     </span>
                   </h4>
 
                   <p className="font-normal text-md max-w-lg text-[#252525] mb-8">
-                    The most project of Sialkot, located at Khawaja Safdar Road
-                    on the central point of Cantt and City. It has
-                    revolutionized the shopping experience of people of Sialkot
-                    and adjoining areas.Brand Village Sialkot is the only the
-                    IconicProject of Sialkot City
+                    Al-Noor Orchard, the largest LDA-approved project of Lahore
+                    West, stands out for its architectural excellence and
+                    attention to detail. This housing scheme is poised to become
+                    a landmark in the area. Masterfully planned and designed by
+                    Al-Jalil Developers, Al-Noor Orchard truly captures the
+                    essence of modern living
                   </p>
-                  <Link
-                    href="/sialkot"
-                    className="font-semibold text-[#A57F4D]"
-                  >
-                    See details
+
+                  <Link href="/contact" className="mt-2 hover_button card">
+                    Contact
                   </Link>
                 </div>
               </div>
