@@ -1,6 +1,6 @@
 "use client";
-import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import { useEffect, useRef, useState } from "react";
 import { IoMdArrowDropright } from "react-icons/io";
 import "./Components.css";
 import Slider from "react-slick";
@@ -143,7 +143,7 @@ const HeroSection = () => {
 
                       <Link
                         href="tel:+92-332-2222929"
-                        className="card w-[14rem] sm:w-[18rem] py-4 text-sm sm:text-md flex justify-center items-center tracking-widest border border-[#EBCFA7] text-white  hover:bg-[#A57F4D] hover:border-[#A57F4D]"
+                        className="card w-[14rem] sm:w-[18rem] py-4 text-sm sm:text-md flex justify-center items-center tracking-widest border border-[#EBCFA7] text-white  hover:bg-[#A57F4D] hover:border-[#A57F4D] transition-colors duration-500"
                       >
                         GET A CONSULTATION <IoMdArrowDropright />
                       </Link>
