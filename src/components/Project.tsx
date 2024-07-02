@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Project = () => {
   return (
@@ -38,9 +39,12 @@ const Project = () => {
                     alarm and fighting system.
                   </p>
 
-                  <button className="font-semibold text-[#A57F4D]">
+                  <Link
+                    href="/gujranwala"
+                    className="font-semibold text-[#A57F4D]"
+                  >
                     See details
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -70,9 +74,9 @@ const Project = () => {
                 walk through more than 50 international & local brands.
               </p>
 
-              <button className="font-semibold text-[#A57F4D]">
+              <Link href="/quetta" className="font-semibold text-[#A57F4D]">
                 See details
-              </button>
+              </Link>
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 group overflow-hidden rounded-lg">

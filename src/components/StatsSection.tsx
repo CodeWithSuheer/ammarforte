@@ -15,7 +15,7 @@ const StatsSection: React.FC = () => {
       <section className="bg-[#f9f9f9] py-24 flex flex-wrap w-[100%] px-5 lg:px-0">
         {/* HEADING SECTION */}
         <div className="text-center w-[100%]">
-          <span className="block text-2xl font-extrabold opacity-20 mb-1">
+          <span className="block text-2xl font-extrabold opacity-40 mb-1">
             02
           </span>
           <h4 className="block text-2xl mb-1">

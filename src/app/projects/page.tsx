@@ -41,7 +41,7 @@ const page = () => {
         </div>
       </section>
 
-      {/* FIRST PROJECT */}
+      {/* FIRST PROJECT --> Brands Village Gujranwala */}
       <section className="project-1 w-full px-2 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 lg:pt-20 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
@@ -75,9 +75,12 @@ const page = () => {
                     alarm and fighting system.
                   </p>
 
-                  <button className="font-semibold text-[#A57F4D]">
+                  <Link
+                    href="/gujranwala"
+                    className="font-semibold text-[#A57F4D]"
+                  >
                     See details
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -85,7 +88,7 @@ const page = () => {
         </div>
       </section>
 
-      {/* SECOND PROJECT */}
+      {/* SECOND PROJECT --> Brands Village Quetta */}
       <section className="project-2 w-full px-2 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex px-5 flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
@@ -107,9 +110,9 @@ const page = () => {
                 walk through more than 50 international & local brands.
               </p>
 
-              <button className="font-semibold text-[#A57F4D]">
+              <Link href="/quetta" className="font-semibold text-[#A57F4D]">
                 See details
-              </button>
+              </Link>
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 group overflow-hidden rounded-lg">
@@ -124,7 +127,7 @@ const page = () => {
         </div>
       </section>
 
-      {/* THIRD PROJECT */}
+      {/* THIRD PROJECT --> Clouds Casa Murree */}
       <section className="project-3 w-full px-2 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
@@ -167,7 +170,7 @@ const page = () => {
         </div>
       </section>
 
-      {/* FORTH PROJECT */}
+      {/* FORTH PROJECT --> Bahria Town Karachi */}
       <section className="project-4 w-full px-2 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex px-5 flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
@@ -199,14 +202,14 @@ const page = () => {
               width={600}
               height={600}
               alt="hero"
-              className="object-cover object-center rounded-lg h-[22rem] transition duration-500 group-hover:scale-105 w-full"
+              className="object-cover object-center rounded-lg  h-[14rem] sm:h-[22rem] transition duration-500 group-hover:scale-105 w-full"
               src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/p5.webp?v=1719861784"
             />
           </div>
         </div>
       </section>
 
-      {/* FIFTH PROJECT */}
+      {/* FIFTH PROJECT --> Al Noor Orchard */}
       <section className="project-5 w-full px-2 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
@@ -214,6 +217,7 @@ const page = () => {
               width={600}
               height={600}
               alt="hero"
+
               className="object-cover object-center rounded-lg h-[22rem] transition duration-500 group-hover:scale-105 w-full"
               src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/p4.webp?v=1719861902"
             />
@@ -250,7 +254,7 @@ const page = () => {
         </div>
       </section>
 
-      {/* Six PROJECT */}
+      {/* Six PROJECT --> Lahore Smart City */}
       <section className="project-4 w-full px-2 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex px-5 flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
@@ -279,22 +283,26 @@ const page = () => {
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 group overflow-hidden rounded-lg">
-            <img
+            <Image
+              width={600}
+              height={600}
               alt="hero"
-              className="object-cover object-center rounded-lg h-[22rem] transition duration-500 group-hover:scale-105 w-full"
+              className="object-cover object-center rounded-lg  h-[14rem] sm:h-[22rem] transition duration-500 group-hover:scale-105 w-full"
               src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/p6.webp?v=1719862055"
             />
           </div>
         </div>
       </section>
 
-      {/* Seven PROJECT */}
+      {/* Seven PROJECT --> Brands Village Sialkot */}
       <section className="project-5 w-full px-2 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
-            <img
+            <Image
+              width={600}
+              height={600}
               alt="hero"
-              className="object-cover object-center rounded-lg h-[22rem] transition duration-500 group-hover:scale-105 w-full"
+              className="object-cover object-center rounded-lg  h-[14rem] sm:h-[22rem] transition duration-500 group-hover:scale-105 w-full"
               src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/s5.webp?v=1719862249"
             />
           </div>
@@ -329,7 +337,7 @@ const page = () => {
         </div>
       </section>
 
-      {/* Eight PROJECT */}
+      {/* Eight PROJECT --> DHA (Lahore | Islamabad | Karachi) */}
       <section className="project-4 w-full px-2 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex px-5 flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
@@ -358,9 +366,11 @@ const page = () => {
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 group overflow-hidden rounded-lg">
-            <img
+            <Image
+              width={600}
+              height={600}
               alt="hero"
-              className="object-cover object-center rounded-lg h-[22rem] transition duration-500 group-hover:scale-105 w-full"
+              className="object-cover object-center rounded-lg  h-[14rem] sm:h-[22rem] transition duration-500 group-hover:scale-105 w-full"
               src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/dha.webp?v=1719862400"
             />
           </div>
