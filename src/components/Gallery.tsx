@@ -4,18 +4,21 @@ import Image from "next/image";
 const Gallery = () => {
   return (
     <>
-      <section className="bg-[#f9f9f9] py-24 flex flex-wrap w-[100%] ">
+      <section className="bg-[#f9f9f9] py-8 sm:py-16 flex flex-wrap w-[100%] ">
         {/* HEADING SECTION */}
         <div className="text-center w-[100%] px-4 lg:px-0">
           <span className="block text-2xl font-extrabold opacity-40 mb-1">
             03
           </span>
-          <h4 className="block text-2xl mb-1">
-            <span className="text-[#9f8054]">Ammar Forte</span> Gallery
+          <h4 className="block text-2xl mb-1 font-semibold">
+            <span className="text-[#9f8054] font-semibold">Ammar Forte</span>{" "}
+            Gallery
           </h4>
-          <p className="font-semibold text-xl">Journey Through Our Creations</p>
+          <h3 className="font-semibold text-xl sm:text-2xl">
+            Journey Through Our Creations
+          </h3>
         </div>
-
+        {/* IMAGES SECTION */}
         <div className="max-w-[85rem] px-3 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
             <div className="space-y-2">
@@ -47,7 +50,6 @@ const Gallery = () => {
                 height={600}
                 alt="Image Description"
                 className="h-[10rem] w-[10rem] sm:h-[33rem] object-cover sm:w-[20rem] rounded"
-
                 src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/7.webp?v=1719860425"
               />
             </div>

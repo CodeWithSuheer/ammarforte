@@ -35,6 +35,7 @@ const Navbar = () => {
               height={100}
               src="https://cdn.shopify.com/s/files/1/0852/5099/8550/files/ammmar.png?v=1719436690"
               alt="Float UI logo"
+              className="w-20 lg:w-24"
             />
           </Link>
           <div className="md:hidden">
@@ -76,13 +77,13 @@ const Navbar = () => {
             state ? "block" : "hidden"
           }`}
         >
-          <ul className="justify-end items-center space-y-10 md:flex md:space-x-10 md:space-y-0">
+          <ul className="justify-end items-center space-y-10 md:flex md:space-x-6 lg:space-x-10 md:space-y-0">
             {navigation.map((item, idx) => {
               return (
                 <li
                   key={idx}
                   onClick={handleLinkClick}
-                  className="text-white text-center hover:text-gray-100 text-[0.95rem] font-semibold uppercase tracking-wide"
+                  className="text-white text-center hover:text-gray-100 text-[0.9rem] lg:text-[0.95rem] font-semibold uppercase tracking-wide"
                 >
                   <Link href={item.path} className="block">
                     {item.title}

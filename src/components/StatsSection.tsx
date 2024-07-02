@@ -12,17 +12,18 @@ const StatsSection: React.FC = () => {
   }, []);
   return (
     <>
-      <section className="bg-[#f9f9f9] py-24 flex flex-wrap w-[100%] px-5 lg:px-0">
+      <section className="bg-[#f9f9f9] py-20 flex flex-wrap w-[100%] px-5 lg:px-0">
         {/* HEADING SECTION */}
         <div className="text-center w-[100%]">
           <span className="block text-2xl font-extrabold opacity-40 mb-1">
             02
           </span>
-          <h4 className="block text-2xl mb-1">
-            <span className="text-[#9f8054]">Homepark</span> Property
+          <h4 className="block text-2xl mb-1 font-semibold">
+            <span className="text-[#9f8054] font-semibold">Ammar Forte</span>{" "}
+            Stats
           </h4>
-          <h3 className="font-semibold text-2xl">
-            Decorated Flats in Pozniaky - Kiev
+          <h3 className="font-semibold text-xl sm:text-2xl">
+            Showcasing Our Exceptional Projects and Satisfied Clients
           </h3>
         </div>
         {/* ICONS SECTION */}
@@ -45,7 +46,7 @@ const StatsSection: React.FC = () => {
               Successful Projects
             </h6>
             <div className="flex items-end gap-1 mt-2">
-              <span className="font-semibold sm:font-extrabold  text-[50px] leading-none">
+              <span className="font-semibold sm:font-extrabold text-[40px] sm:text-[50px] leading-none">
                 <CountUp enableScrollSpy={true} duration={3} end={85} />
               </span>
             </div>
@@ -67,7 +68,7 @@ const StatsSection: React.FC = () => {
               Properties Sold
             </h6>
             <div className="flex items-end gap-1 mt-2">
-              <span className="font-semibold sm:font-extrabold text-[50px] leading-none">
+              <span className="font-semibold sm:font-extrabold text-[40px] sm:text-[50px] leading-none">
                 <CountUp enableScrollSpy={true} duration={3} end={150} />
               </span>{" "}
               <h6 className="font-semibold">+</h6>
@@ -84,13 +85,15 @@ const StatsSection: React.FC = () => {
               height={65}
               alt="Icon"
               className="w-14 h-14 sm:w-16 sm:h-16 object-contain"
-              src={"	https://themezinho.net/hompark/images/icon-benefits03.png"}
+              src={
+                "https://cdn.shopify.com/s/files/1/0852/5099/8550/files/fast-time.png?v=1719953504"
+              }
             />
             <h6 className="font-semibold sm:text-lg text-sm mt-2">
               Years of Experience
             </h6>
             <div className="flex items-end gap-1 mt-2">
-              <span className="sm:font-extrabold font-semibold text-[50px] leading-none">
+              <span className="sm:font-extrabold font-semibold text-[40px] sm:text-[50px] leading-none">
                 <CountUp enableScrollSpy={true} duration={3} end={20} />
               </span>
             </div>
@@ -106,13 +109,15 @@ const StatsSection: React.FC = () => {
               height={65}
               alt="Icon"
               className="w-14 h-14 sm:w-16 sm:h-16 object-contain"
-              src={"https://themezinho.net/hompark/images/icon-benefits04.png"}
+              src={
+                "https://cdn.shopify.com/s/files/1/0852/5099/8550/files/award.png?v=1719953346"
+              }
             />
             <h6 className="font-semibold sm:text-lg text-sm mt-2">
               Awards Won
             </h6>
             <div className="flex items-end gap-1 mt-2">
-              <span className="sm:font-extrabold font-semibold text-[50px] leading-none">
+              <span className="sm:font-extrabold font-semibold text-[40px] sm:text-[50px] leading-none">
                 <CountUp enableScrollSpy={true} duration={3} end={25} />
               </span>
             </div>
@@ -134,7 +139,7 @@ const StatsSection: React.FC = () => {
               Satisfied Clients
             </h6>
             <div className="flex items-end gap-1 mt-2">
-              <span className="sm:font-extrabold font-semibold text-[50px] leading-none">
+              <span className="sm:font-extrabold font-semibold text-[40px] sm:text-[50px] leading-none">
                 <CountUp enableScrollSpy={true} duration={2} end={109} />
               </span>{" "}
               <h6 className="font-semibold">+</h6>
