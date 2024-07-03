@@ -33,7 +33,7 @@ export async function sendEmail(data:EmailData) {
 
   let mailoptions = {
     from: process.env.EMAIL_AUTH_USER_EMAIL,
-    to: "harissaeed583@gmail.com" ,
+    to: "never.reply87@gmail.com" ,
     subject: "New Query On Ammar Forte",
     html: output,
   };

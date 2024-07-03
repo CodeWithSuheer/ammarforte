@@ -8,7 +8,7 @@ import { IoIosArrowForward } from "react-icons/io";
 import Aos from "aos";
 import "aos/dist/aos.css"
 
-const page = () => {
+const Page = () => {
   useEffect(() => {
     Aos.init({ duration: 1500, easing: "ease" });
   },[]);
@@ -458,4 +458,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
