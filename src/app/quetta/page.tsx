@@ -46,42 +46,38 @@ const page = () => {
                 className=" h-[full] w-[full] sm:h-[18rem] object-cover sm:w-[18.6rem] rounded"
                 src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/quetta.webp?v=1719945287"
               />
-             
             </div>
             <div className="space-y-5">
               <Image
                 width={600}
                 height={600}
                 alt="Image Description"
-                className=" h-[10rem] w-[10rem] sm:h-[18rem] object-cover sm:w-[18.6rem] rounded"
+                className=" h-[full] w-[full] sm:h-[18rem] object-cover sm:w-[18.6rem] rounded"
                 src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/quetta2.webp?v=1719945287"
               />
-              
             </div>
             <div className="space-y-5">
               <Image
                 width={600}
                 height={600}
                 alt="Image Description"
-                className=" h-[10rem] w-[10rem] sm:h-[18rem] object-cover sm:w-[18.6rem] rounded"
+                className=" h-[full] w-[full] sm:h-[18rem] object-cover sm:w-[18.6rem] rounded"
                 src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/p1-scaled.webp?v=1719945287"
               />
-              
             </div>
             <div className="space-y-5">
               <Image
                 width={600}
                 height={600}
                 alt="Image Description"
-                className=" h-[10rem] w-[10rem] sm:h-[18rem] object-cover sm:w-[18.6rem] rounded"
+                className=" h-[full] w-[full] sm:h-[18rem] object-cover sm:w-[18.6rem] rounded"
                 src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/m.webp?v=1719843374"
               />
-           
             </div>
           </div>
         </div>
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-14 md:flex-row  flex-col items-start min-h-[auto] ">
-          <div className="text-center w-[100%] sm:text-start">
+          <div className="text-start w-[100%] px-3">
             <h4 className="playfair backdrop:block text-3xl sm:text-4xl mb-4">
               <span className="playfair text-[#9f8054]">
                 Brands Village Quetta
