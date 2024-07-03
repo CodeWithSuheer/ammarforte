@@ -15,30 +15,37 @@ const data = [
   {
     id: 1,
     image:
-      "https://res.cloudinary.com/dgsnff8tg/image/upload/v1720021461/custa_2_ovqdy0.webp",
+      "https://cdn.shopify.com/s/files/1/0852/5099/8550/files/Group_1_1.webp?v=1720025136",
     alt: "image",
     name: "Cuesta Murree",
   },
   {
     id: 2,
     image:
-      "https://cdn.shopify.com/s/files/1/0852/5099/8550/files/Group_3.webp?v=1719605230",
+      "https://cdn.shopify.com/s/files/1/0852/5099/8550/files/Group_3_1.webp?v=1720025135",
     alt: "image",
     name: "Clouds Casa Murree",
   },
   {
     id: 3,
     image:
-      "https://cdn.shopify.com/s/files/1/0852/5099/8550/files/Group_2.webp?v=1719605230",
+      "https://cdn.shopify.com/s/files/1/0852/5099/8550/files/Group_2_1.webp?v=1720025135",
     alt: "image",
     name: "Brands Village Quetta",
   },
   {
     id: 4,
     image:
-      "https://cdn.shopify.com/s/files/1/0852/5099/8550/files/Group_4.webp?v=1719605230",
+      "https://cdn.shopify.com/s/files/1/0852/5099/8550/files/Group_4_1.webp?v=1720025135",
     alt: "image",
     name: "Metropole Rawalpindi",
+  },
+  {
+    id: 4,
+    image:
+      "https://cdn.shopify.com/s/files/1/0852/5099/8550/files/Group_5.webp?v=1720025135",
+    alt: "image",
+    name: "Qalandar City Lahore",
   },
 ];
 

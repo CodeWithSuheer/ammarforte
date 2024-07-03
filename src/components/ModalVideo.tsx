@@ -2,6 +2,7 @@
 
 import React from "react";
 import { useEffect, useState } from "react";
+import { RxCross1 } from "react-icons/rx";
 import {
   Button,
   Modal,
@@ -11,13 +12,14 @@ import {
 } from "keep-react";
 import { RiArrowRightDoubleFill } from "react-icons/ri";
 import "./Components.css";
+import Link from "next/link";
 
 const ModalVideo = () => {
   const [isOpen, setIsOpen] = useState(false);
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsOpen(true);
-    }, 3000);
+    }, 2000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -26,13 +28,13 @@ const ModalVideo = () => {
   };
   return (
     <>
-      <Modal isOpen={isOpen} onClose={closeModal}>
-        <ModalBody className="flex w-[40rem] flex-col bg-transparent">
+      <Modal className="bg-transparent" isOpen={isOpen} onClose={closeModal}>
+        <ModalBody className="flex w-[40rem] flex-col bg-transparent dark:bg-transparent">
           <div
             onClick={closeModal}
-            className=" text-white text-end hover hover:cursor-pointer"
+            className=" text-white w-full flex justify-end text-end hover hover:cursor-pointer"
           >
-            x
+            <RxCross1 />
           </div>
           <ModalContent className="my-2 text-center">
             <video
@@ -49,14 +51,17 @@ const ModalVideo = () => {
           </ModalContent>
           <ModalFooter>
             <div className="w-[100%] flex justify-center items-center">
-              <Button className="bg-transparent hover:bg-transparent">
+              <Link
+                href="/projects"
+                className="bg-transparent hover:bg-transparent"
+              >
                 View Details
                 <RiArrowRightDoubleFill
                   width={16}
                   height={16}
                   className="arrow1"
                 />
-              </Button>
+              </Link>
             </div>
           </ModalFooter>
         </ModalBody>
