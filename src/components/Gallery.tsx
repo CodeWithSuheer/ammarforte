@@ -30,7 +30,7 @@ const Gallery = () => {
                 width={600}
                 height={600}
                 alt="Image Description"
-                className="h-[11rem] w-[11rem] sm:h-[42rem] object-cover sm:w-[18.6rem] rounded"
+                className="h-[11rem] w-[11rem] sm:h-[42rem] object-cover sm:w-[20rem] rounded"
                 src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/6.webp?v=1719860425"
               />
             </div>
