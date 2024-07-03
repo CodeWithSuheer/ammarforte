@@ -19,7 +19,7 @@ import {
   ModalIcon,
 } from "keep-react";
 
-const page = () => {
+const Page = () => {
   const ref = useRef<HTMLFormElement>(null);
   const [isOpen, setIsOpen] = useState(false);
   const initialState = {
@@ -215,4 +215,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

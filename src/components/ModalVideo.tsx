@@ -4,7 +4,6 @@ import React from "react";
 import { useEffect, useState } from "react";
 import { RxCross1 } from "react-icons/rx";
 import {
-  Button,
   Modal,
   ModalBody,
   ModalContent,

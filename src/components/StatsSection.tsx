@@ -27,9 +27,7 @@ const StatsSection: React.FC = () => {
             className="font-medium text-lg sm:text-xl"
             words="Showcasing Our Exceptional Projects and Satisfied Clients"
           />
-          {/* <h3 className="font-semibold text-xl sm:text-2xl">
-            Showcasing Our Exceptional Projects and Satisfied Clients
-          </h3> */}
+        
         </div>
         {/* ICONS SECTION */}
         <div className="mt-4 flex justify-center items-center flex-wrap gap-4 sm:gap-10 max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto">
