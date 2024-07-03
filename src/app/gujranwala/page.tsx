@@ -37,6 +37,8 @@ const page = () => {
         </div>
       </section>
 
+      
+
       <section className="w-full bg-[#1B1B1B]">
         {/* IMAGES  */}
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl px-4 py-10 lg:px-0 lg:py-14 mx-auto">
