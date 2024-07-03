@@ -37,6 +37,23 @@ const page = () => {
         </div>
       </section>
 
+      <section className="w-screen h-auto bg-[#1B1B1B] ">
+        <div className=" bg-[#1B1B1B] max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-14 md:flex-row  flex-col items-start min-h-[auto] ">
+          <div className="text-start w-[100%] px-3 ">
+            <video
+              controls
+              muted
+              loop
+              autoPlay
+              playsInline
+              className="w-[100%]"
+            >
+              <source src="/brandsvillage.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </section>
       <section className="w-full bg-[#1B1B1B]">
         {/* IMAGES  */}
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl px-4 py-10 lg:px-0 lg:py-14 mx-auto">
