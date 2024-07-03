@@ -1,10 +1,17 @@
+"use client"
+
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
 import { FaHome } from "react-icons/fa";
 import { IoIosArrowForward } from "react-icons/io";
+import Aos from "aos";
+import "aos/dist/aos.css"
 
 const page = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1500, easing: "ease" });
+  },[]);
   return (
     <>
       <section className="projectsSectionbg">
@@ -44,7 +51,7 @@ const page = () => {
       {/* FIRST PROJECT --> Brands Village Gujranwala */}
       <section className="project-1 w-full px-0 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 sm:px-4 py-10 lg:pt-20 md:flex-row flex-col items-center">
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
+          <div data-aos="zoom-out" className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
             <Image
               width={600}
               height={600}
@@ -116,7 +123,7 @@ const page = () => {
               </Link>
             </div>
           </div>
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 group overflow-hidden rounded-lg">
+          <div data-aos="zoom-in" className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 group overflow-hidden rounded-lg">
             <Image
               width={600}
               height={600}
@@ -135,7 +142,7 @@ const page = () => {
       {/* THIRD PROJECT --> Brands Village Sialkot */}
       <section className="project-5 w-full px-0 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 sm:px-4 py-10 md:flex-row flex-col items-center">
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
+          <div data-aos="zoom-out" className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
             <Image
               width={600}
               height={600}
@@ -206,7 +213,7 @@ const page = () => {
               </Link>
             </div>
           </div>
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 group overflow-hidden rounded-lg">
+          <div data-aos="zoom-in" className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 group overflow-hidden rounded-lg">
             <Image
               width={600}
               height={600}
@@ -225,7 +232,7 @@ const page = () => {
       {/* FIFTH PROJECT --> Clouds Casa Murree */}
       <section className="project-3 w-full px-0 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 sm:px-4 py-10 md:flex-row flex-col items-center">
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
+          <div data-aos="zoom-out" className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
             <Image
               width={600}
               height={600}
@@ -297,7 +304,7 @@ const page = () => {
               </Link>
             </div>
           </div>
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 group overflow-hidden rounded-lg">
+          <div data-aos="zoom-in" className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 group overflow-hidden rounded-lg">
             <Image
               width={600}
               height={600}
@@ -316,7 +323,7 @@ const page = () => {
       {/* SEVENTH PROJECT --> Al Noor Orchard */}
       <section className="project-5 w-full px-0 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 sm:px-4 py-10 md:flex-row flex-col items-center">
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
+          <div data-aos="zoom-out" className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
             <Image
               width={600}
               height={600}
@@ -389,7 +396,7 @@ const page = () => {
               </Link>
             </div>
           </div>
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 group overflow-hidden rounded-lg">
+          <div data-aos="zoom-in" className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 group overflow-hidden rounded-lg">
             <Image
               width={600}
               height={600}
@@ -408,7 +415,7 @@ const page = () => {
       {/* Nine PROJECT */}
       <section className="project-5 w-full px-0 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 sm:px-4 py-10 md:flex-row flex-col items-center">
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
+          <div data-aos="zoom-out" className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
             <Image
               width={600}
               height={600}

@@ -1,8 +1,14 @@
-import React from "react";
+"use client"
+import React, { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Aos from "aos";
+import "aos/dist/aos.css"
 
 const Project = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1500, easing: "ease" });
+  }, []);
   return (
     <>
       {/* HEADING SECTION */}
@@ -19,7 +25,7 @@ const Project = () => {
       {/* FIRST PROJECT */}
       <section className="project-1 w-full px-0 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 sm:px-4 py-10 lg:pt-14 md:flex-row flex-col items-center">
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
+          <div  data-aos="zoom-in" className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
             <Image
               width={600}
               height={600}
@@ -40,9 +46,7 @@ const Project = () => {
                       Brands Village Gujranwala
                     </span>
                   </h4>
-                  {/* <p className="font-semibold text-lg sm:text-xl text-[#252525] mb-5">
-                    Living spaces for creative peoples
-                  </p> */}
+            
 
                   <p className="font-normal text-md max-w-lg text-[#252525] mb-4">
                     Brand Village Gujranwala is the only the Iconic Project of
@@ -97,7 +101,7 @@ const Project = () => {
               </Link>
             </div>
           </div>
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 group overflow-hidden rounded-lg">
+          <div data-aos="zoom-in" className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 group overflow-hidden rounded-lg">
             <Image
               width={600}
               height={600}
@@ -116,7 +120,7 @@ const Project = () => {
       {/* THIRD PROJECT */}
       <section className="project-3 w-full px-0 xl:px-0">
         <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 sm:px-4 py-10 lg:pt-14 md:flex-row flex-col items-center">
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
+          <div data-aos="zoom-out" className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
             <Image
               width={600}
               height={600}
