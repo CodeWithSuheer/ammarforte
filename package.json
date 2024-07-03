@@ -10,10 +10,15 @@
   },
   "dependencies": {
     "aos": "^2.3.4",
+<<<<<<< HEAD
     "clsx": "^2.1.1",
     "framer-motion": "^11.2.12",
+=======
+    "keep-react": "^1.4.0",
+>>>>>>> 97bf3b02c53e167a52d4dd83854c9e62f96c738f
     "next": "14.2.4",
     "nodemailer": "^6.9.14",
+    "phosphor-react": "^1.4.1",
     "react": "^18",
     "react-countup": "^6.5.3",
     "react-dom": "^18",

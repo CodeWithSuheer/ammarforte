@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { IoLocationOutline } from "react-icons/io5";
 import { FaHome } from "react-icons/fa";
 import { IoIosArrowForward } from "react-icons/io";
@@ -11,15 +11,34 @@ import { useFormState } from "react-dom";
 import { submitForm } from "../actions/QueryActions";
 import SubmitButton from "./SubmitButton";
 
+<<<<<<< HEAD
 const page = () => {
  
+=======
+import { Check } from 'phosphor-react'
+import { Button, Modal, ModalBody, ModalContent, ModalFooter, ModalIcon } from 'keep-react'
+
+const page:React.FC = () => {
+  const ref = useRef<HTMLFormElement>(null);
+  const [isOpen, setIsOpen] = useState(false)
+>>>>>>> 97bf3b02c53e167a52d4dd83854c9e62f96c738f
   const initialState = {
     message: '',
     status:0,
     error:undefined
   };
-
   const [state, formAction] = useFormState(submitForm, initialState);
+  console.log(state?.status);
+  useEffect(()=>{
+    if(state?.status === 200){
+      setIsOpen(true)
+      ref.current?.reset();
+    }
+  },[state]);
+
+  const closeModal = () => {
+    setIsOpen(false)
+  }
   
   return (
     <>
@@ -122,7 +141,7 @@ const page = () => {
                 you as soon as possible.
               </p>
               {/* FORM */}
-              <form action = {formAction} className="mt-6" >
+              <form action = {formAction} ref={ref} className="mt-6" >
                 <div className="mb-4">
                   <input
                     className="block w-full px-3 py-3 mt-2 text-gray-700 placeholder-gray-700 bg-[#F7F7F7] border border-gray-500 rounded-md focus:outline-none focus:shadow-md"
@@ -168,6 +187,27 @@ const page = () => {
         </div>
       </div>
     </section>
+
+    <>
+      <Modal isOpen={isOpen} onClose={closeModal}>
+        <ModalBody className="flex w-[30rem] flex-col items-center p-6 lg:p-8">
+          <ModalIcon className="h-20 w-20 border border-success-100 bg-success-50 text-success-500">
+            <Check size={60} />
+          </ModalIcon>
+           <ModalContent className="my-4 text-center">
+            <h3 className="mb-2 text-body-1 font-bold text-metal-900">Submission Successful</h3>
+            <p className="mx-auto max-w-xs text-body-4 font-normal text-metal-600">
+              Your message has been submitted.Our team will get back to you soon.
+            </p>
+          </ModalContent>
+          <ModalFooter>
+            <Button onClick={closeModal} size="sm" color="success">
+              Close
+            </Button>
+          </ModalFooter>
+        </ModalBody>
+      </Modal>
+    </>
   </>
   );
 };
