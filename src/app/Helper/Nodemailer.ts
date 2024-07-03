@@ -12,10 +12,10 @@ export async function sendEmail(data:EmailData) {
   const { email, name, number , message} = data;
 
     let output = `
-    <p> ${email}</p>
-    <p> ${number}</p>
-    <p> ${name}</p>
-    <p> ${message}</p>
+    <p>Email : ${email}</p>
+    <p>NUmber : ${number}</p>
+    <p>Name : ${name}</p>
+    <p>Message : ${message}</p>
   `;
   
   let transport = nodemailer.createTransport({

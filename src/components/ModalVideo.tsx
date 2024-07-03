@@ -1,0 +1,68 @@
+"use client";
+
+import React from "react";
+import { useEffect, useState } from "react";
+import {
+  Button,
+  Modal,
+  ModalBody,
+  ModalContent,
+  ModalFooter,
+} from "keep-react";
+import { RiArrowRightDoubleFill } from "react-icons/ri";
+import "./Components.css";
+
+const ModalVideo = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsOpen(true);
+    }, 3000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  const closeModal = () => {
+    setIsOpen(false);
+  };
+  return (
+    <>
+      <Modal isOpen={isOpen} onClose={closeModal}>
+        <ModalBody className="flex w-[40rem] flex-col bg-transparent">
+          <div
+            onClick={closeModal}
+            className=" text-white text-end hover hover:cursor-pointer"
+          >
+            x
+          </div>
+          <ModalContent className="my-2 text-center">
+            <video
+              controls
+              muted
+              loop
+              autoPlay
+              playsInline
+              className="w-[100%]"
+            >
+              <source src="/brandsvillage.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </ModalContent>
+          <ModalFooter>
+            <div className="w-[100%] flex justify-center items-center">
+              <Button className="bg-transparent hover:bg-transparent">
+                View Details
+                <RiArrowRightDoubleFill
+                  width={16}
+                  height={16}
+                  className="arrow1"
+                />
+              </Button>
+            </div>
+          </ModalFooter>
+        </ModalBody>
+      </Modal>
+    </>
+  );
+};
+
+export default ModalVideo;
