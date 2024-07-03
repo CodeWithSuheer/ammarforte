@@ -1,10 +1,16 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
 import { FaHome } from "react-icons/fa";
 import { IoIosArrowForward } from "react-icons/io";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
-const page = () => {
+const Page = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <>
       <section className="aboutSectionbg">
@@ -72,7 +78,12 @@ const page = () => {
             </div>
 
             {/* RIGHT SIDE */}
-            <div className="left_img group overflow-hidden">
+            <div
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+              className="left_img group overflow-hidden"
+            >
               <Image
                 width={600}
                 height={600}
@@ -86,7 +97,9 @@ const page = () => {
           {/* FIRST CARD */}
           <div className="py-5 sm:py-12 grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8">
             {/* LEFT SIDE */}
-            <div className="left_img group overflow-hidden flex items-center">
+            <div
+              className="left_img group overflow-hidden flex items-center"
+            >
               <Image
                 width={600}
                 height={600}
@@ -157,7 +170,9 @@ const page = () => {
             </div>
 
             {/* RIGHT SIDE */}
-            <div className="left_img group overflow-hidden">
+            <div
+              className="left_img group overflow-hidden"
+            >
               <Image
                 width={600}
                 height={600}
@@ -173,4 +188,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
