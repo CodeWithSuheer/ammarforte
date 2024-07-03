@@ -130,7 +130,7 @@ const Project = () => {
               <div className="content-box">
                 <div className="text-start w-[100%]">
                   <span className="block text-xl font-semibold opacity-50 mb-1">
-                    Muree
+                    Murree
                   </span>
                   <h4 className="playfair backdrop:block text-3xl sm:text-4xl mb-4">
                     <span className="playfair text-[#9f8054]">

@@ -1,18 +1,27 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import WordPullUp from "./magicui/word-pull-up";
 
 const Blogs = () => {
   return (
     <>
       <div className="max-w-[85rem] px-4 py-10 sm:px-4 lg:px-8 lg:py-14 mx-auto">
         <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
-          <h2 className="text-2xl font-bold md:text-4xl md:leading-tight">
-            Realestate Blog's
-          </h2>
-          <p className="mt-1 text-gray-600">
+          <span className="block text-2xl font-extrabold opacity-40 mb-1">
+            05
+          </span>
+          <h4 className="block text-2xl mb-1 font-semibold">
+            <span className="text-[#9f8054] font-semibold">Realestate</span>{" "}
+            Blog&apos;s
+          </h4>
+          {/* <p className="mt-1 text-gray-600">
             Dive into our latest thoughts and insights!
-          </p>
+          </p> */}
+          <WordPullUp
+            className="font-medium text-lg sm:text-xl"
+            words="Dive into our latest thoughts and insights!"
+          />
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <Link

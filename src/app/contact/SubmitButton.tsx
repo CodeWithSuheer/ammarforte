@@ -1,7 +1,7 @@
 import React from 'react';
-import { useFormState, useFormStatus } from "react-dom";
+import { useFormStatus } from "react-dom";
 
-const SubmitButton:React.FC = () => {
+const SubmitButton= () => {
     const { pending } = useFormStatus();
 
   return (

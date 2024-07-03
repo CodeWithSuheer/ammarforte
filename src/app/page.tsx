@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className="">
       <section id="home"><HeroSection /></section>
-      <section id="home"><Intro /></section>
+      <section id="Intro"><Intro /></section>
       <section id="stats"><StatsSection /></section>
       <section id="gallery"><Gallery /></section>
       <section id="project"><Project /></section>

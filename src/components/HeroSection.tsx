@@ -15,7 +15,7 @@ const data = [
   {
     id: 1,
     image:
-      "https://cdn.shopify.com/s/files/1/0852/5099/8550/files/Group_1.webp?v=1719605230",
+      "https://res.cloudinary.com/dgsnff8tg/image/upload/v1720021461/custa_2_ovqdy0.webp",
     alt: "image",
     name: "Cuesta Murree",
   },

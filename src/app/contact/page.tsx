@@ -7,11 +7,11 @@ import { FaHome } from "react-icons/fa";
 import { IoIosArrowForward } from "react-icons/io";
 import { IoMail } from "react-icons/io5";
 import { MdPhone } from "react-icons/md";
-import { useFormState, useFormStatus } from "react-dom";
+import { useFormState } from "react-dom";
 import { submitForm } from "../actions/QueryActions";
 import SubmitButton from "./SubmitButton";
 
-const page:React.FC = () => {
+const page = () => {
  
   const initialState = {
     message: '',
@@ -79,7 +79,7 @@ const page:React.FC = () => {
 
               <p className="text-gray-300 py-3">
                 Have questions or need assistance? Our team is here to help!
-                Reach out to us for any inquiries or support, and we'll get
+                Reach out to us for any inquiries or support, and we&apos;ll get
                 back to you promptly.
               </p>
 

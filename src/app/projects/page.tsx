@@ -43,7 +43,7 @@ const page = () => {
 
       {/* FIRST PROJECT --> Brands Village Gujranwala */}
       <section className="project-1 w-full px-0 xl:px-0">
-        <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 lg:pt-20 md:flex-row flex-col items-center">
+        <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 sm:px-4 py-10 lg:pt-20 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
             <Image
               width={600}
@@ -53,7 +53,7 @@ const page = () => {
               src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/m.webp?v=1719843374"
             />
           </div>
-          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex px-5 flex-col md:items-start md:text-left items-center text-center">
+          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex px-5 sm:px-0 flex-col md:items-start md:text-left items-center text-center">
             <div className="col-lg-6 wow fadeInUp">
               <div className="content-box">
                 <div className="text-start w-[100%]">
@@ -75,10 +75,7 @@ const page = () => {
                     alarm and fighting system.
                   </p>
 
-                  <Link
-                    href="/gujranwala"
-                    className="font-semibold text-[#A57F4D]"
-                  >
+                  <Link href="/gujranwala" className="mt-2 hover_button card">
                     See details
                   </Link>
                 </div>
@@ -94,8 +91,8 @@ const page = () => {
 
       {/* SECOND PROJECT --> Brands Village Quetta */}
       <section className="project-2 w-full px-0 xl:px-0">
-        <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex px-5 flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 sm:px-4 py-10 md:flex-row flex-col items-center">
+          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex px-5 sm:px-0 flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <div className="text-start w-[100%]">
               <span className="block text-xl font-semibold opacity-50 mb-1">
                 Quetta
@@ -114,7 +111,7 @@ const page = () => {
                 walk through more than 50 international & local brands.
               </p>
 
-              <Link href="/quetta" className="font-semibold text-[#A57F4D]">
+              <Link href="/quetta" className="mt-2 hover_button card">
                 See details
               </Link>
             </div>
@@ -135,9 +132,9 @@ const page = () => {
         <p className="h-px w-full bg-gray-700 opacity-50"></p>
       </section>
 
-      {/* Seven PROJECT --> Brands Village Sialkot */}
+      {/* THIRD PROJECT --> Brands Village Sialkot */}
       <section className="project-5 w-full px-0 xl:px-0">
-        <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
+        <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 sm:px-4 py-10 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
             <Image
               width={600}
@@ -147,7 +144,7 @@ const page = () => {
               src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/s5.webp?v=1719862249"
             />
           </div>
-          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex px-5 flex-col md:items-start md:text-left items-center text-center">
+          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex px-5 sm:px-0 flex-col md:items-start md:text-left items-center text-center">
             <div className="col-lg-6 wow fadeInUp">
               <div className="content-box">
                 <div className="text-start w-[100%]">
@@ -167,10 +164,8 @@ const page = () => {
                     and adjoining areas.Brand Village Sialkot is the only the
                     IconicProject of Sialkot City
                   </p>
-                  <Link
-                    href="/sialkot"
-                    className="font-semibold text-[#A57F4D]"
-                  >
+
+                  <Link href="/sialkot" className="mt-2 hover_button card">
                     See details
                   </Link>
                 </div>
@@ -186,8 +181,8 @@ const page = () => {
 
       {/* FORTH PROJECT --> Bahria Town Karachi */}
       <section className="project-4 w-full px-0 xl:px-0">
-        <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex px-5 flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 sm:px-4 py-10 md:flex-row flex-col items-center">
+          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex px-5 sm:px-0 flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <div className="text-start w-[100%]">
               <span className="block text-xl font-semibold opacity-50 mb-1">
                 Karachi
@@ -227,9 +222,9 @@ const page = () => {
         <p className="h-px w-full bg-gray-700 opacity-50"></p>
       </section>
 
-      {/* THIRD PROJECT --> Clouds Casa Murree */}
+      {/* FIFTH PROJECT --> Clouds Casa Murree */}
       <section className="project-3 w-full px-0 xl:px-0">
-        <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
+        <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 sm:px-4 py-10 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
             <Image
               width={600}
@@ -239,7 +234,7 @@ const page = () => {
               src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/cloud_apartments.webp?v=1719844179"
             />
           </div>
-          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex px-5 flex-col md:items-start md:text-left items-center text-center">
+          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex px-5 sm:px-0 flex-col md:items-start md:text-left items-center text-center">
             <div className="col-lg-6 wow fadeInUp">
               <div className="content-box">
                 <div className="text-start w-[100%]">
@@ -276,8 +271,8 @@ const page = () => {
 
       {/* Six PROJECT --> Lahore Smart City */}
       <section className="project-4 w-full px-0 xl:px-0">
-        <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex px-5 flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 sm:px-4 py-10 md:flex-row flex-col items-center">
+          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex px-5 sm:px-0 flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <div className="text-start w-[100%]">
               <span className="block text-xl font-semibold opacity-50 mb-1">
                 Lahore
@@ -318,9 +313,9 @@ const page = () => {
         <p className="h-px w-full bg-gray-700 opacity-50"></p>
       </section>
 
-      {/* FIFTH PROJECT --> Al Noor Orchard */}
+      {/* SEVENTH PROJECT --> Al Noor Orchard */}
       <section className="project-5 w-full px-0 xl:px-0">
-        <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
+        <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 sm:px-4 py-10 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
             <Image
               width={600}
@@ -330,7 +325,7 @@ const page = () => {
               src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/p4.webp?v=1719861902"
             />
           </div>
-          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex px-5 flex-col md:items-start md:text-left items-center text-center">
+          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex px-5 sm:px-0 flex-col md:items-start md:text-left items-center text-center">
             <div className="col-lg-6 wow fadeInUp">
               <div className="content-box">
                 <div className="text-start w-[100%]">
@@ -368,8 +363,8 @@ const page = () => {
 
       {/* Eight PROJECT --> DHA (Lahore | Islamabad | Karachi) */}
       <section className="project-4 w-full px-0 xl:px-0">
-        <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex px-5 flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 sm:px-4 py-10 md:flex-row flex-col items-center">
+          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex px-5 sm:px-0 flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <div className="text-start w-[100%]">
               <span className="block text-xl font-semibold opacity-50 mb-1">
                 DHA
@@ -399,7 +394,7 @@ const page = () => {
               width={600}
               height={600}
               alt="hero"
-              className="object-cover object-center rounded-lg  h-[14rem] sm:h-[22rem] transition duration-500 group-hover:scale-105 w-full"
+              className="object-cover object-center rounded-lg h-[14rem] sm:h-[22rem] transition duration-500 group-hover:scale-105 w-full"
               src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/dha.webp?v=1719862400"
             />
           </div>
@@ -412,15 +407,17 @@ const page = () => {
 
       {/* Nine PROJECT */}
       <section className="project-5 w-full px-0 xl:px-0">
-        <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 py-10 md:flex-row flex-col items-center">
+        <div className="max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto flex px-0 sm:px-4 py-10 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 group overflow-hidden rounded-lg">
-            <img
+            <Image
+              width={600}
+              height={600}
               alt="hero"
               className="object-cover object-center rounded-lg h-[14rem] sm:h-[22rem] transition duration-500 group-hover:scale-105 w-full"
               src="https://cdn.shopify.com/s/files/1/0649/1399/8024/files/p3.webp?v=1719927629"
             />
           </div>
-          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex px-5 flex-col md:items-start md:text-left items-center text-center">
+          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex px-5 sm:px-0 flex-col md:items-start md:text-left items-center text-center">
             <div className="col-lg-6 wow fadeInUp">
               <div className="content-box">
                 <div className="text-start w-[100%]">

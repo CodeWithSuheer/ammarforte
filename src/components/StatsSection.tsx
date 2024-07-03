@@ -5,6 +5,7 @@ import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import CountUp from "react-countup";
+import WordPullUp from "./magicui/word-pull-up";
 
 const StatsSection: React.FC = () => {
   useEffect(() => {
@@ -22,9 +23,13 @@ const StatsSection: React.FC = () => {
             <span className="text-[#9f8054] font-semibold">Ammar Forte</span>{" "}
             Stats
           </h4>
-          <h3 className="font-semibold text-xl sm:text-2xl">
+          <WordPullUp
+            className="font-medium text-lg sm:text-xl"
+            words="Showcasing Our Exceptional Projects and Satisfied Clients"
+          />
+          {/* <h3 className="font-semibold text-xl sm:text-2xl">
             Showcasing Our Exceptional Projects and Satisfied Clients
-          </h3>
+          </h3> */}
         </div>
         {/* ICONS SECTION */}
         <div className="mt-4 flex justify-center items-center flex-wrap gap-4 sm:gap-10 max-w-5xl xl:max-w-6xl xxl:max-w-7xl mx-auto">

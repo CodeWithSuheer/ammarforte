@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import WordPullUp from "./magicui/word-pull-up";
 
 const Gallery = () => {
   return (
@@ -14,9 +15,13 @@ const Gallery = () => {
             <span className="text-[#9f8054] font-semibold">Ammar Forte</span>{" "}
             Gallery
           </h4>
-          <h3 className="font-semibold text-xl sm:text-2xl">
+          {/* <h3 className="font-semibold text-xl sm:text-2xl">
             Journey Through Our Creations
-          </h3>
+          </h3> */}
+          <WordPullUp
+            className="font-medium text-lg sm:text-xl"
+            words="Journey Through Our Creations"
+          />
         </div>
         {/* IMAGES SECTION */}
         <div className="max-w-[85rem] px-3 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
