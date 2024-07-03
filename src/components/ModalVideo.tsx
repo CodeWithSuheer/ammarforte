@@ -34,7 +34,7 @@ const ModalVideo = () => {
             onClick={closeModal}
             className=" text-white w-full flex justify-end text-end hover hover:cursor-pointer"
           >
-            <RxCross1 />
+            <RxCross1 className="text-[#EBCFA7]" />
           </div>
           <ModalContent className="my-2 text-center">
             <video
@@ -52,8 +52,9 @@ const ModalVideo = () => {
           <ModalFooter>
             <div className="w-[100%] flex justify-center items-center">
               <Link
-                href="/projects"
-                className="bg-transparent hover:bg-transparent"
+                href="/sialkot"
+                onClick={closeModal}
+                className="bg-transparent hover:bg-transparent text-[#EBCFA7] flex justify-center items-center"
               >
                 View Details
                 <RiArrowRightDoubleFill

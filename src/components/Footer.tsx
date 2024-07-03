@@ -56,35 +56,35 @@ const Footer = () => {
                   Contact Us
                 </Link>
                 <Link
-                  href="/privacy-policy"
+                  href="/projects"
                   className="text-gray-50 transition-colors duration-300 hover:underline hover:text-[#A57F4D]"
                 >
-                  Privacy Policy
+                  Projects
                 </Link>
               </div>
             </div>
 
-            {/* PRODUCT & CATEGORIES */}
+            {/* PROJECTS */}
             <div>
               <p className="text-xl font-semibold text-white">Useful Links</p>
               <div className="flex flex-col items-start mt-3 space-y-2">
                 <Link
-                  href="/online-classes"
+                  href="/sialkot"
                   className="text-gray-50 transition-colors duration-300 hover:underline hover:text-[#A57F4D]"
                 >
                   Brands Village Sialkot
                 </Link>
                 <Link
-                  href="/exams"
+                  href="/quetta"
                   className="text-gray-50 transition-colors duration-300 hover:underline hover:text-[#A57F4D]"
                 >
                   Brands Village Queeta
                 </Link>
                 <Link
-                  href="/assignments"
+                  href="/gujranwala"
                   className="text-gray-50 transition-colors duration-300 hover:underline hover:text-[#A57F4D]"
                 >
-                  Bahira Town Lahore
+                  Brands Village Gujranwala
                 </Link>
               </div>
             </div>
