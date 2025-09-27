@@ -27,7 +27,7 @@ export default function RootLayout({
         />
       </head>
       <body className="light">
-        <ModalVideo />
+        {/* <ModalVideo /> */}
         <div className="w-full flex justify-center items-center">
           <Navbar />
         </div>
